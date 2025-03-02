@@ -14,7 +14,7 @@ Integrantes:
 
 | Rol                  | Email                           | Contraseña              |
 |----------------------|--------------------------------|-------------------------|
-| **Administrador**    | `admin@admin.com`             | `Admin1234`             |
+| **Administrador**    | `admin@admin.com`             | `Admin1234,`             |
 | **Doctor**          | `doctor@test.com`             | `Doctor1234!`           |
 | **Recepcionista**   | `receptionist@test.com`       | `Receptionist1234!`     |
 | **Especialista en Tratamientos** | `treatmentspecialist@test.com` | `TreatmentSpecialist1234!` |
