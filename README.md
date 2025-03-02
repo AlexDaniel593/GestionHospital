@@ -1,8 +1,13 @@
-# GestionHospital
-Programacion Web Proyecto Parcial 3
-Integrantes:
-- Daniel Guaman
-- Kevin Amaguana
+# 🏥 Gestión Hospitalaria  
+
+📌 **Proyecto de Programación Web - Parcial 3**  
+
+## 👥 Integrantes  
+- **Daniel Guaman**  
+- **Kevin Amaguana**  
+
+🚀 Desarrollo de una plataforma web para la gestión hospitalaria, incluyendo administración de usuarios, asignación de roles y manejo de citas médicas.  
+
 
 > [!IMPORTANT]
 > # Cuentas de Prueba
@@ -22,8 +27,6 @@ Integrantes:
 
 ⚠ **Nota:** Estas cuentas son exclusivamente para pruebas. No las utilices en un entorno de producción.
 
-
-## Descripcion General del Proyecto
 
 ## Seguridad en la autenticación y autorización dentro del sistema.
 
