@@ -16,5 +16,22 @@ namespace CapaNegocio
         {
             return _pacienteDAL.ListarPaciente();
         }
+
+        public void GuardarPaciente(PacienteCLS paciente)
+        {
+            _pacienteDAL.GuardarPaciente(paciente);
+        }
+
+        public PacienteCLS? RecuperarPaciente(int idPaciente)
+        {
+            return _pacienteDAL.RecuperarPaciente(idPaciente);
+        }
+
+        public void EliminarPaciente(int idPaciente)
+        {
+            _pacienteDAL.EliminarPaciente(idPaciente);
+        }
+
+
     }
 }

@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e761y4sbed</Fingerprint>
-      <Integrity>qkd30Ekp3iZTdrsPk7TvqxTKr3Jn9RuZRXpuR1C05eU=</Integrity>
+      <Fingerprint>ecohgon5iw</Fingerprint>
+      <Integrity>frUpk55H/BhtrlpNDyl6Gwcvi260NCuoGz0VUF2Xy3U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\paciente.js'))</OriginalItemSpec>

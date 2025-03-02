@@ -1,6 +1,10 @@
 ﻿@{
-    ViewData["Title"] = "Access Denied";
+    ViewBag.Title = "Acceso Denegado";
 }
 
-<h2>Access Denied</h2>
-<p>You do not have permission to access this resource.</p>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var accessDeniedModal = new bootstrap.Modal(document.getElementById('accessDeniedModal'));
+        accessDeniedModal.show();
+    });
+</script>
