@@ -14,11 +14,11 @@ Integrantes:
 
 | Rol                  | Email                           | Contraseña              |
 |----------------------|--------------------------------|-------------------------|
-| **Administrador**    | `admin@admin.com`             | `Admin1234,`             |
+| **Admin**    | `admin@admin.com`             | `Admin1234,`             |
 | **Doctor**          | `doctor@test.com`             | `Doctor1234!`           |
-| **Recepcionista**   | `receptionist@test.com`       | `Receptionist1234!`     |
-| **Especialista en Tratamientos** | `treatmentspecialist@test.com` | `TreatmentSpecialist1234!` |
-| **Facturador**      | `biller@test.com`             | `Biller1234!`           |
+| **Receptionist**   | `receptionist@test.com`       | `Receptionist1234!`     |
+| **TreatmentSpecialist** | `treatmentspecialist@test.com` | `TreatmentSpecialist1234!` |
+| **Biller**      | `biller@test.com`             | `Biller1234!`           |
 
 ⚠ **Nota:** Estas cuentas son exclusivamente para pruebas. No las utilices en un entorno de producción.
 
