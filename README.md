@@ -4,25 +4,24 @@ Integrantes:
 - Daniel Guaman
 - Kevin Amaguana
 
-> .[!IMPORTANT]
-># Cuentas de Prueba
+> [!IMPORTANT]
+> # Cuentas de Prueba
+>
+> A continuación, encontrarás las credenciales de prueba para los distintos roles del sistema.  
+> Úsalas para acceder y probar las funcionalidades según el rol asignado.
 
-> A continuación se detallan las cuentas de prueba disponibles para diferentes roles en el sistema. Utiliza estas credenciales para acceder a las funcionalidades específicas de cada rol.
->- **Admin**: 
->  - **Email**: admin@admin.com
->  - **Password**: Admin1234,
->- **Doctor**: 
->  - **Email**: doctor@test.com
->  - **Password**: Doctor1234!
->- **Receptionist**: 
->  - **Email**: receptionist@test.com
->  - **Password**: Receptionist1234!
->- **TreatmentSpecialist**: 
->  - **Email**: treatmentspecialist@test.com
->  - **Password**: TreatmentSpecialist1234!
->- **Biller**: 
->  - **Email**: biller@test.com
->  - **Password**: Biller1234!
+### 🔑 Credenciales de Prueba  
+
+| Rol                  | Email                           | Contraseña              |
+|----------------------|--------------------------------|-------------------------|
+| **Administrador**    | `admin@admin.com`             | `Admin1234`             |
+| **Doctor**          | `doctor@test.com`             | `Doctor1234!`           |
+| **Recepcionista**   | `receptionist@test.com`       | `Receptionist1234!`     |
+| **Especialista en Tratamientos** | `treatmentspecialist@test.com` | `TreatmentSpecialist1234!` |
+| **Facturador**      | `biller@test.com`             | `Biller1234!`           |
+
+⚠ **Nota:** Estas cuentas son exclusivamente para pruebas. No las utilices en un entorno de producción.
+
 
 ## Descripcion General del Proyecto
 
