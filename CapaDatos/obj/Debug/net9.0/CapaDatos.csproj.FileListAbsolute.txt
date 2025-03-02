@@ -1,4 +1,5 @@
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\bin\Debug\net9.0\CapaDatos.deps.json
+C:\Users\dalex\source\repos\GestionHospital\CapaDatos\bin\Debug\net9.0\CapaDatos.runtimeconfig.json
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\bin\Debug\net9.0\CapaDatos.dll
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\bin\Debug\net9.0\CapaDatos.pdb
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\bin\Debug\net9.0\CapaEntidad.dll
@@ -8,8 +9,10 @@ C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\CapaDatos
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\CapaDatos.AssemblyInfoInputs.cache
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\CapaDatos.AssemblyInfo.cs
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\CapaDatos.sourcelink.json
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\CapaDatos.csproj.Up2Date
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\CapaDatos.dll
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\refint\CapaDatos.dll
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\CapaDatos.pdb
+C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\CapaDatos.genruntimeconfig.cache
 C:\Users\dalex\source\repos\GestionHospital\CapaDatos\obj\Debug\net9.0\ref\CapaDatos.dll

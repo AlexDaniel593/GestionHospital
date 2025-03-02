@@ -5,6 +5,7 @@ C:\Users\dalex\source\repos\GestionHospital\CapaEntidad\obj\Debug\net9.0\CapaEnt
 C:\Users\dalex\source\repos\GestionHospital\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfoInputs.cache
 C:\Users\dalex\source\repos\GestionHospital\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfo.cs
 C:\Users\dalex\source\repos\GestionHospital\CapaEntidad\obj\Debug\net9.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\dalex\source\repos\GestionHospital\CapaEntidad\obj\Debug\net9.0\CapaEntidad.sourcelink.json
 C:\Users\dalex\source\repos\GestionHospital\CapaEntidad\obj\Debug\net9.0\CapaEntidad.dll
 C:\Users\dalex\source\repos\GestionHospital\CapaEntidad\obj\Debug\net9.0\refint\CapaEntidad.dll
 C:\Users\dalex\source\repos\GestionHospital\CapaEntidad\obj\Debug\net9.0\CapaEntidad.pdb

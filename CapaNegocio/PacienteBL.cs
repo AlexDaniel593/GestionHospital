@@ -5,10 +5,16 @@ namespace CapaNegocio
 {
     public class PacienteBL
     {
+        private readonly PacienteDAL _pacienteDAL;
+
+        public PacienteBL(PacienteDAL pacienteDAL)
+        {
+            _pacienteDAL = pacienteDAL;
+        }
+
         public List<PacienteCLS> ListarPaciente()
         {
-            PacienteDAL pacienteDAL = new PacienteDAL();
-            return pacienteDAL.ListarPaciente();
+            return _pacienteDAL.ListarPaciente();
         }
     }
 }
