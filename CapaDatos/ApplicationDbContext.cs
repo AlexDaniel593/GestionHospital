@@ -13,6 +13,8 @@ namespace CapaDatos
 
         public DbSet<PacienteCLS> PACIENTES { get; set; }
 
+        public DbSet<MedicoCLS> MEDICOS { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

@@ -21,9 +21,7 @@
 |----------------------|--------------------------------|-------------------------|
 | **Admin**    | `admin@admin.com`             | `Admin1234,`             |
 | **Doctor**          | `doctor@test.com`             | `Doctor1234!`           |
-| **Receptionist**   | `receptionist@test.com`       | `Receptionist1234!`     |
-| **TreatmentSpecialist** | `treatmentspecialist@test.com` | `TreatmentSpecialist1234!` |
-| **Biller**      | `biller@test.com`             | `Biller1234!`           |
+| **Staff**   | `receptionist@test.com`       | `Receptionist1234!`     |
 
 ⚠ **Nota:** Estas cuentas son exclusivamente para pruebas. No las utilices en un entorno de producción.
 
@@ -37,9 +35,7 @@
 | **Admin**      | CRUD*         | CRUD        | CRUD               | CRUD      | CRUD             | CRUD             |
 | **Patient**           | R (propio)    | -           | -                  | R (propias)| -                | R (propias)      |
 | **Doctor**             | R (pacientes) | R (propio)  | -                  | CRUD (propias)| CRUD (pacientes)| -                |
-| **Receptionist**      | CRUD          | R           | R                  | CRUD      | -                | -                |
-| **TreatmentSpecialist** | R          | R           | R                  | -         | CRUD             | -                |
-| **Biller**         | R             | -           | -                  | -         | R                | CRUD             |
+| **Staff**      | CRUD          | R           | R                  | CRUD      | CRUD                | CRUD                |
 
 
 ---

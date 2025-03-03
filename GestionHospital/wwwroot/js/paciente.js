@@ -6,7 +6,11 @@ let objPaciente;
 
 async function ListarPaciente() {
     const roles = userRoles.split(',');
-    const hasAccess = roles.includes('Admin') || roles.includes('Receptionist');
+    const hasAccess = roles.includes('Admin') || roles.includes('Staff');
+    if (!hasAccess) {
+        let btnNuevo = document.getElementById("btnNuevoPaciente");
+        btnNuevo.style.display = "none";
+    }
 
     objPaciente = {
         url: "Paciente/ListarPaciente",
@@ -17,12 +21,12 @@ async function ListarPaciente() {
         propiedadID: "idPaciente"
     }
 
-    pintar(objPaciente);
-
-    if (!hasAccess) {
-        let btnNuevo = document.getElementById("btnNuevoPaciente");
-        btnNuevo.style.display = "none";
+    if (roles.includes('Doctor'))
+    {
+        objPaciente.url = "Paciente/ListarPacientesAsignados";
     }
+
+    pintar(objPaciente);
 }
 
 

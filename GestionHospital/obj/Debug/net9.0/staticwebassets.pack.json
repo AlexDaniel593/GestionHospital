@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\js\\generic.js"
     },
     {
+      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\medico.js",
+      "PackagePath": "staticwebassets\\js\\medico.js"
+    },
+    {
       "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\paciente.js",
       "PackagePath": "staticwebassets\\js\\paciente.js"
     },

@@ -9,17 +9,24 @@ namespace CapaNegocio
         private readonly PacienteDAL _pacienteDAL;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly ApplicationDbContext _context;
 
-        public PacienteBL(PacienteDAL pacienteDAL, UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, AccountBL accountBL)
+        public PacienteBL(PacienteDAL pacienteDAL, UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, AccountBL accountBL, ApplicationDbContext context)
         {
             _pacienteDAL = pacienteDAL;
             _userManager = userManager;
             _roleManager = roleManager;
+            _context = context;
         }
 
         public List<PacienteCLS> ListarPaciente()
         {
             return _pacienteDAL.ListarPaciente();
+        }
+
+        public List<PacienteCLS> ListarPacientesAsignados(int idDoctor)
+        {
+            return _pacienteDAL.ListarPacientesAsignados(idDoctor);
         }
         public async Task GuardarPaciente(PacienteCLS paciente)
         {
@@ -117,7 +124,7 @@ namespace CapaNegocio
             }
 
             // Obtener todos los pacientes habilitados (BHABILITADO = 1)
-            var pacientes = _pacienteDAL.ListarPaciente();  // Podrías tener una consulta en DAL que filtre esto.
+            var pacientes = _pacienteDAL.ListarPaciente();  
 
             foreach (var paciente in pacientes)
             {
@@ -128,6 +135,35 @@ namespace CapaNegocio
 
                     // Crear el usuario en AspNetUsers
                     await CrearUsuarioPaciente(paciente.email, contrasena);
+                }
+            }
+        }
+
+        public async Task DeshabilitarCuentasDePacientesInhabilitados()
+        {
+            // Obtener todos los pacientes
+            var pacientes = _pacienteDAL.ListarTodosPacientes();
+
+            foreach (var paciente in pacientes)
+            {
+                if (paciente.BHABILITADO == 0)
+                {
+                    // Verifica si el usuario existe en AspNetUsers
+                    var user = await _userManager.FindByEmailAsync(paciente.email);
+                    if (user != null)
+                    {
+                        // Bloquea la cuenta para que no pueda hacer login
+                        user.LockoutEnabled = true;
+                        user.LockoutEnd = DateTime.UtcNow.AddYears(100);  // El lockout por 100 años
+
+                        // Guarda los cambios
+                        var result = await _userManager.UpdateAsync(user);
+                        if (!result.Succeeded)
+                        {
+                            var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+                            throw new Exception("Error al deshabilitar la cuenta del paciente: " + errors);
+                        }
+                    }
                 }
             }
         }

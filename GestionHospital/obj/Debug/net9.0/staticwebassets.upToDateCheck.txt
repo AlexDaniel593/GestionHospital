@@ -35,6 +35,7 @@ C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\jquery\L
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\js\medico.js
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
@@ -67,6 +68,7 @@ wwwroot\css\site.css
 wwwroot\css\StyleLayout.css
 wwwroot\favicon.ico
 wwwroot\js\generic.js
+wwwroot\js\medico.js
 wwwroot\js\paciente.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

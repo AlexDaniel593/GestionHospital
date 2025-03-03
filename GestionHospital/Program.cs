@@ -27,6 +27,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddScoped<PacienteDAL>();
 builder.Services.AddScoped<PacienteBL>();
 builder.Services.AddScoped<AccountBL>();
+builder.Services.AddScoped<MedicoDAL>();
+builder.Services.AddScoped<MedicoBL>();
 
 
 var app = builder.Build();
@@ -55,7 +57,7 @@ using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-    var roles = new[] { "Admin", "Doctor", "Patient", " ", "Biller", "TreatmentSpecialist" };
+    var roles = new[] { "Admin", "Doctor", "Patient", "Staff"};
     foreach (var role in roles)
     {
         if (!await roleManager.RoleExistsAsync(role))

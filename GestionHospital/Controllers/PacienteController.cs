@@ -2,47 +2,57 @@
 using Microsoft.AspNetCore.Mvc;
 using CapaNegocio;
 using CapaEntidad;
-
+using System.Security.Claims;
 
 namespace GestionHospital.Controllers
 {
+    [Authorize]
     public class PacienteController : Controller
     {
         private readonly PacienteBL _pacienteBL;
+        private readonly MedicoBL _medicoBL;
 
-        public PacienteController(PacienteBL pacienteBL)
+        public PacienteController(PacienteBL pacienteBL, MedicoBL medicoBL)
         {
             _pacienteBL = pacienteBL;
+            _medicoBL = medicoBL;
         }
 
-        [Authorize(Roles = "Admin,Receptionist,TreatmentSpecialist,Biller")]
+        [Authorize(Roles = "Admin,Staff,Doctor")]
         public IActionResult Index()
         {
             return View();
         }
 
-        [Authorize(Roles = "Admin,Receptionist,TreatmentSpecialist,Biller")]
+        [Authorize(Roles = "Admin,Staff")]
         public List<PacienteCLS> ListarPaciente()
         {
             return _pacienteBL.ListarPaciente();
         }
 
-        [Authorize(Roles = "Admin,Receptionist")]
+        [Authorize(Roles = "Doctor")]
+        public List<PacienteCLS> ListarPacientesAsignados()
+        {
+            var userEmail = User.FindFirstValue(ClaimTypes.Email); // Obtener el correo del usuario actual
+            var idDoctor = _medicoBL.ObtenerIdDoctorDesdeEmail(userEmail); // Método para obtener el ID del médico desde el correo
+            return _pacienteBL.ListarPacientesAsignados(idDoctor);
+        }
+
+        [Authorize(Roles = "Admin,Staff")]
         public async Task<IActionResult> GuardarPaciente(PacienteCLS paciente)
         {
-            // Guardar el paciente en la base de datos y, si es nuevo, crear el usuario
             await _pacienteBL.GuardarPaciente(paciente);
 
             return RedirectToAction("Index");
         }
 
-        [Authorize(Roles = "Admin,Receptionist,TreatmentSpecialist,Biller")]
+        [Authorize(Roles = "Admin,Staff,Doctor")]
         public PacienteCLS? RecuperarPaciente(int idPaciente)
         {
             return _pacienteBL.RecuperarPaciente(idPaciente);
         }
 
-        [Authorize(Roles = "Admin,Receptionist")]
+        [Authorize(Roles = "Admin,Staff")]
         public async Task<IActionResult> EliminarPaciente(int idPaciente)
         {
             try
@@ -56,6 +66,8 @@ namespace GestionHospital.Controllers
             }
         }
 
+
+
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CrearCuentasParaPacientesExistentes()
         {
@@ -63,6 +75,14 @@ namespace GestionHospital.Controllers
             await _pacienteBL.CrearCuentasParaPacientesExistentes();
 
             return RedirectToAction("Index", "Home");
+        }
+
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeshabilitarCuentasDePacientesInhabilitados()
+        {
+            // Deshabilitar cuentas de pacientes inhabilitados desde la capa de negocio
+            await _pacienteBL.DeshabilitarCuentasDePacientesInhabilitados();
+            return Ok("Cuentas deshabilitadas con éxito");
         }
     }
 }

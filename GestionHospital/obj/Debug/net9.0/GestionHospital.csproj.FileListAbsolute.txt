@@ -321,4 +321,5 @@ C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\Ges
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\GestionHospital.genruntimeconfig.cache
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\ref\GestionHospital.dll
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\92728zs8kr-6y2eldx8ym.gz
-C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\62tlvmph1h-ecohgon5iw.gz
+C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\62tlvmph1h-k7a1cx2ers.gz
+C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\lph9dque12-i5bhocfci9.gz

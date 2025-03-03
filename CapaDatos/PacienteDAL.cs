@@ -16,6 +16,16 @@ namespace CapaDatos
         {
             return _context.PACIENTES.FromSqlRaw("EXEC uspListarPacientes").ToList();
         }
+
+        public List<PacienteCLS> ListarTodosPacientes()
+        {
+            return _context.PACIENTES.FromSqlRaw("EXEC uspListarTodosPacientes").ToList();
+        }
+
+        public List<PacienteCLS> ListarPacientesAsignados(int idDoctor)
+        {
+            return _context.PACIENTES.FromSqlRaw("EXEC uspListarPacientesAsignados @idDoctor", new SqlParameter("@idDoctor", idDoctor)).ToList();
+        }
         public void GuardarPaciente(PacienteCLS paciente)
         {
             var idParam = new SqlParameter("@idPaciente", paciente.idPaciente);
