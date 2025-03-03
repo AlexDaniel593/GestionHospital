@@ -43,9 +43,17 @@ namespace GestionHospital.Controllers
         }
 
         [Authorize(Roles = "Admin,Receptionist")]
-        public void EliminarPaciente(int idPaciente)
+        public async Task<IActionResult> EliminarPaciente(int idPaciente)
         {
-            _pacienteBL.EliminarPaciente(idPaciente);
+            try
+            {
+                await _pacienteBL.EliminarPaciente(idPaciente);
+                return Ok("Paciente eliminado con éxito");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Error al eliminar el paciente: " + ex.Message);
+            }
         }
 
         [Authorize(Roles = "Admin")]

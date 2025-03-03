@@ -42,11 +42,8 @@ namespace CapaNegocio
 
         public async Task EliminarPaciente(int idPaciente)
         {
-
-            _pacienteDAL.EliminarPaciente(idPaciente);  // Actualiza el estado de BHABILITADO a 0
-
-            // deshabilitar la cuenta del usuario correspondiente
-            var paciente = _pacienteDAL.RecuperarPaciente(idPaciente); 
+             // deshabilitar la cuenta del usuario correspondiente
+            var paciente =  _pacienteDAL.RecuperarPaciente(idPaciente);
             if (paciente != null && paciente.email != null)
             {
                 // Verifica si el usuario existe en AspNetUsers
@@ -59,13 +56,20 @@ namespace CapaNegocio
 
                     // Guarda los cambios
                     var result = await _userManager.UpdateAsync(user);
-                    if (!result.Succeeded)
+                    if (result.Succeeded)
+                    {
+                        _pacienteDAL.EliminarPaciente(idPaciente);  // Actualiza el estado de BHABILITADO a 0
+                       
+                    }
+                    else
                     {
                         var errors = string.Join(", ", result.Errors.Select(e => e.Description));
                         throw new Exception("Error al deshabilitar la cuenta del paciente: " + errors);
                     }
                 }
             }
+
+            
         }
 
 
