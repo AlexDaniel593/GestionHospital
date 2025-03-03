@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using CapaNegocio;
 using CapaEntidad;
-using CapaDatos;
 
 
 namespace GestionHospital.Controllers
@@ -16,7 +15,7 @@ namespace GestionHospital.Controllers
             _pacienteBL = pacienteBL;
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin,Receptionist,TreatmentSpecialist,Biller")]
         public IActionResult Index()
         {
             return View();
@@ -29,9 +28,12 @@ namespace GestionHospital.Controllers
         }
 
         [Authorize(Roles = "Admin,Receptionist")]
-        public void GuardarPaciente(PacienteCLS paciente)
+        public async Task<IActionResult> GuardarPaciente(PacienteCLS paciente)
         {
-            _pacienteBL.GuardarPaciente(paciente);
+            // Guardar el paciente en la base de datos y, si es nuevo, crear el usuario
+            await _pacienteBL.GuardarPaciente(paciente);
+
+            return RedirectToAction("Index");
         }
 
         [Authorize(Roles = "Admin,Receptionist,TreatmentSpecialist,Biller")]
@@ -44,6 +46,15 @@ namespace GestionHospital.Controllers
         public void EliminarPaciente(int idPaciente)
         {
             _pacienteBL.EliminarPaciente(idPaciente);
+        }
+
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> CrearCuentasParaPacientesExistentes()
+        {
+            // Crear cuentas para pacientes existentes desde la capa de negocio
+            await _pacienteBL.CrearCuentasParaPacientesExistentes();
+
+            return RedirectToAction("Index", "Home");
         }
     }
 }

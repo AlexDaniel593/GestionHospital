@@ -21,7 +21,7 @@ namespace CapaDatos
             var idParam = new SqlParameter("@idPaciente", paciente.idPaciente);
             var nombreParam = new SqlParameter("@nombre", paciente.nombre);
             var apellidoParam = new SqlParameter("@apellido", paciente.apellido);
-            var fechaNacimientoParam = new SqlParameter("@fechaNacimiento", paciente.fechaNacimiento ?? (object)DBNull.Value);
+            var fechaNacimientoParam = new SqlParameter("@fechaNacimiento", paciente.fechaNacimiento);
             var telefonoParam = new SqlParameter("@telefono", paciente.telefono);
             var emailParam = new SqlParameter("@email", paciente.email);
             var direccionParam = new SqlParameter("@direccion", paciente.direccion);

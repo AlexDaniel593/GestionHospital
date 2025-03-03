@@ -47,5 +47,6 @@ namespace GestionHospital.Controllers
         {
             return View();
         }
+
     }
 }

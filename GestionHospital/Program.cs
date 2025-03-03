@@ -26,6 +26,8 @@ builder.Services.AddRazorPages();
 // Register DAL and BL classes
 builder.Services.AddScoped<PacienteDAL>();
 builder.Services.AddScoped<PacienteBL>();
+builder.Services.AddScoped<AccountBL>();
+
 
 var app = builder.Build();
 
