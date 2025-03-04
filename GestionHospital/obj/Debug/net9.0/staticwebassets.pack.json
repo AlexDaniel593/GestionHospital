@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\facturacion.js",
+      "PackagePath": "staticwebassets\\js\\facturacion.js"
+    },
+    {
       "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\generic.js",
       "PackagePath": "staticwebassets\\js\\generic.js"
     },
@@ -35,6 +39,10 @@
     {
       "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\tratamiento.js",
+      "PackagePath": "staticwebassets\\js\\tratamiento.js"
     },
     {
       "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\LICENSE",

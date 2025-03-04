@@ -4,6 +4,7 @@ D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery\dist\jquery.min.map
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\js\tratamiento.js
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
@@ -15,6 +16,7 @@ D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\js\generic.js
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery\dist\jquery.slim.js
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\js\facturacion.js
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
@@ -69,10 +71,12 @@ wwwroot\css\shared.css
 wwwroot\css\site.css
 wwwroot\css\StyleLayout.css
 wwwroot\favicon.ico
+wwwroot\js\facturacion.js
 wwwroot\js\generic.js
 wwwroot\js\medico.js
 wwwroot\js\paciente.js
 wwwroot\js\site.js
+wwwroot\js\tratamiento.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

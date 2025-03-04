@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\gestionhospital\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\capadatos\\citadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\citadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\gestionhospital\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\capadatos\\facturaciondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\facturaciondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\capadatos\\tratamientodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\tratamientodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "GestionHospital\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "GestionHospital\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T02:14:43.352Z",
+              "DocumentIndex": 0,
+              "Title": "CitaDAL.cs",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\CitaDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CitaDAL.cs",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\CitaDAL.cs",
+              "RelativeToolTip": "CapaDatos\\CitaDAL.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:57:42.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "shared.css",
-              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\shared.css",
-              "RelativeDocumentMoniker": "GestionHospital\\wwwroot\\css\\shared.css",
-              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\shared.css",
-              "RelativeToolTip": "GestionHospital\\wwwroot\\css\\shared.css",
-              "ViewState": "AgIAAOsAAAAAAAAAAAAQwPsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-04T02:14:40.794Z",
+              "DocumentIndex": 1,
+              "Title": "FacturacionDAL.cs",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\FacturacionDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\FacturacionDAL.cs",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\FacturacionDAL.cs",
+              "RelativeToolTip": "CapaDatos\\FacturacionDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:57:41.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TratamientoDAL.cs",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\TratamientoDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\TratamientoDAL.cs",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\TratamientoDAL.cs",
+              "RelativeToolTip": "CapaDatos\\TratamientoDAL.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:57:38.361Z",
               "EditorCaption": ""
             }
           ]
