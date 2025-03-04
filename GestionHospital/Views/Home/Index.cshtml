@@ -1,7 +1,4 @@
-﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
-
+﻿
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -15,7 +12,15 @@
 {
 	<p>Admin</p>
 }
-else
+else if (User.IsInRole("Patient"))
 {
-	<p>Not Admin</p>
+	<p>Patient</p>
+}
+else if (User.IsInRole("Doctor"))
+{
+	<p>Doctor</p>
+}
+else if (User.IsInRole("Staff"))
+{
+	<p>Staff</p>
 }

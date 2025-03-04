@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P7LbeB80wcc1lVMtt8Iezm2KJN19zBxfeVNA9Hvgvfs=",
+  "Hash": "AKW3EZoHqNBxGBXjEA5RqcgyzPinuqdr4M97KbnxuLk=",
   "Source": "GestionHospital",
   "BasePath": "_content/GestionHospital",
   "Mode": "Default",
@@ -1739,12 +1739,12 @@
       "OriginalItemSpec": "C:\\Users\\dalex\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\62tlvmph1h-v5w92q73nc.gz",
+      "Identity": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\62tlvmph1h-0a0kz8mcj5.gz",
       "SourceId": "GestionHospital",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/GestionHospital",
-      "RelativePath": "js/paciente#[.{fingerprint=v5w92q73nc}]?.js.gz",
+      "RelativePath": "js/paciente#[.{fingerprint=0a0kz8mcj5}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1753,8 +1753,8 @@
       "RelatedAsset": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\paciente.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "37bfxiul3c",
-      "Integrity": "b09q9hHr5AZboJwJLDnsK6RbJLFss84vZJWNtNL/WgM=",
+      "Fingerprint": "bi0b0bta43",
+      "Integrity": "UzOgqS0vvDxsHxikix6zAQ5FUZHEKmJvdj2xVmTVoGs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\paciente.js"
@@ -1802,12 +1802,12 @@
       "OriginalItemSpec": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\7lb0a0dh89-u86eg4xc8j.gz",
+      "Identity": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\7lb0a0dh89-dh72lmo7ye.gz",
       "SourceId": "GestionHospital",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/GestionHospital",
-      "RelativePath": "js/cita#[.{fingerprint=u86eg4xc8j}]?.js.gz",
+      "RelativePath": "js/cita#[.{fingerprint=dh72lmo7ye}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1816,8 +1816,8 @@
       "RelatedAsset": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\cita.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "d9paom2xvn",
-      "Integrity": "n9FHCiLnYaG6VegeiAR8d3Ivk3RenOrj0ica5vppe3E=",
+      "Fingerprint": "vgoaita16u",
+      "Integrity": "X2DcBFnLJw8sY+R+qEpSmO1TJYQP8YU4iNc7FOX7DbI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\cita.js"
@@ -1928,12 +1928,12 @@
       "OriginalItemSpec": "C:\\Users\\dalex\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\92728zs8kr-6y2eldx8ym.gz",
+      "Identity": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\92728zs8kr-m3g5iflnuy.gz",
       "SourceId": "GestionHospital",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/GestionHospital",
-      "RelativePath": "js/generic#[.{fingerprint=6y2eldx8ym}]?.js.gz",
+      "RelativePath": "js/generic#[.{fingerprint=m3g5iflnuy}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1942,8 +1942,8 @@
       "RelatedAsset": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\generic.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2fcuuxfpzp",
-      "Integrity": "XswSn9UGD1UGIVD63n+qBAy5RXMIGbs34sruwxLE8WY=",
+      "Fingerprint": "oeum6002x2",
+      "Integrity": "cIkP4sSQN2c4ecKCH9pnciEHBSP027Vo/fp409JD7uI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\generic.js"
@@ -4294,8 +4294,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "u86eg4xc8j",
-      "Integrity": "4jghR4vdEHWsjv74PMc+qJIJU7lnOwLYgNGuBp4JcLY=",
+      "Fingerprint": "dh72lmo7ye",
+      "Integrity": "n+BicY3fhk7zLf92KdrbJ5XYN5XC/KzZH/sW4TEaX/g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\cita.js"
@@ -4336,8 +4336,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6y2eldx8ym",
-      "Integrity": "kmBUiVEqzOCmDQq+uJ5g9lc/v+zwy+m6uYJk2qKt3+k=",
+      "Fingerprint": "m3g5iflnuy",
+      "Integrity": "wt7aNoE4I+1BA8hefnxMFYReaMJpNyfEIkq46wnUm0M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\generic.js"
@@ -4378,8 +4378,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v5w92q73nc",
-      "Integrity": "EyV6SVzYXhZbe0VXcTfqRlpiMFTfyo9D3Jy0K4OvDTM=",
+      "Fingerprint": "0a0kz8mcj5",
+      "Integrity": "aMFxMk5yCHNfbQisZgwHrgzgcGdWaN23yCNcaH5dS+k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\paciente.js"
@@ -16082,13 +16082,13 @@
       ]
     },
     {
-      "Route": "js/cita.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\7lb0a0dh89-u86eg4xc8j.gz",
+      "Route": "js/cita.dh72lmo7ye.js",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\7lb0a0dh89-dh72lmo7ye.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000597014925"
+          "Quality": "0.000593824228"
         }
       ],
       "ResponseHeaders": [
@@ -16098,19 +16098,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1674"
+          "Value": "1683"
         },
         {
           "Name": "ETag",
-          "Value": "\"n9FHCiLnYaG6VegeiAR8d3Ivk3RenOrj0ica5vppe3E=\""
+          "Value": "\"X2DcBFnLJw8sY+R+qEpSmO1TJYQP8YU4iNc7FOX7DbI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:23:49 GMT"
+          "Value": "Tue, 04 Mar 2025 13:27:38 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -16126,18 +16126,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4jghR4vdEHWsjv74PMc+qJIJU7lnOwLYgNGuBp4JcLY=\""
+          "Value": "W/\"n+BicY3fhk7zLf92KdrbJ5XYN5XC/KzZH/sW4TEaX/g=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "dh72lmo7ye"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cita.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-4jghR4vdEHWsjv74PMc+qJIJU7lnOwLYgNGuBp4JcLY="
+          "Value": "sha256-n+BicY3fhk7zLf92KdrbJ5XYN5XC/KzZH/sW4TEaX/g="
         }
       ]
     },
     {
-      "Route": "js/cita.js",
+      "Route": "js/cita.dh72lmo7ye.js",
       "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\cita.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -16147,7 +16155,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6316"
+          "Value": "6563"
         },
         {
           "Name": "Content-Type",
@@ -16155,121 +16163,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4jghR4vdEHWsjv74PMc+qJIJU7lnOwLYgNGuBp4JcLY=\""
+          "Value": "\"n+BicY3fhk7zLf92KdrbJ5XYN5XC/KzZH/sW4TEaX/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:23:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4jghR4vdEHWsjv74PMc+qJIJU7lnOwLYgNGuBp4JcLY="
-        }
-      ]
-    },
-    {
-      "Route": "js/cita.js.gz",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\7lb0a0dh89-u86eg4xc8j.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1674"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n9FHCiLnYaG6VegeiAR8d3Ivk3RenOrj0ica5vppe3E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:23:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-n9FHCiLnYaG6VegeiAR8d3Ivk3RenOrj0ica5vppe3E="
-        }
-      ]
-    },
-    {
-      "Route": "js/cita.u86eg4xc8j.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\7lb0a0dh89-u86eg4xc8j.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000597014925"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1674"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n9FHCiLnYaG6VegeiAR8d3Ivk3RenOrj0ica5vppe3E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:23:49 GMT"
+          "Value": "Tue, 04 Mar 2025 13:27:38 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"4jghR4vdEHWsjv74PMc+qJIJU7lnOwLYgNGuBp4JcLY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u86eg4xc8j"
+          "Value": "dh72lmo7ye"
         },
         {
           "Name": "label",
@@ -16277,13 +16185,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4jghR4vdEHWsjv74PMc+qJIJU7lnOwLYgNGuBp4JcLY="
+          "Value": "sha256-n+BicY3fhk7zLf92KdrbJ5XYN5XC/KzZH/sW4TEaX/g="
         }
       ]
     },
     {
-      "Route": "js/cita.u86eg4xc8j.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\cita.js",
+      "Route": "js/cita.dh72lmo7ye.js.gz",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\7lb0a0dh89-dh72lmo7ye.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16292,7 +16200,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6316"
+          "Value": "1683"
         },
         {
           "Name": "Content-Type",
@@ -16300,56 +16208,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4jghR4vdEHWsjv74PMc+qJIJU7lnOwLYgNGuBp4JcLY=\""
+          "Value": "\"X2DcBFnLJw8sY+R+qEpSmO1TJYQP8YU4iNc7FOX7DbI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:23:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u86eg4xc8j"
-        },
-        {
-          "Name": "label",
-          "Value": "js/cita.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4jghR4vdEHWsjv74PMc+qJIJU7lnOwLYgNGuBp4JcLY="
-        }
-      ]
-    },
-    {
-      "Route": "js/cita.u86eg4xc8j.js.gz",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\7lb0a0dh89-u86eg4xc8j.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1674"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n9FHCiLnYaG6VegeiAR8d3Ivk3RenOrj0ica5vppe3E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:23:49 GMT"
+          "Value": "Tue, 04 Mar 2025 13:27:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16367,7 +16230,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u86eg4xc8j"
+          "Value": "dh72lmo7ye"
         },
         {
           "Name": "label",
@@ -16375,7 +16238,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-n9FHCiLnYaG6VegeiAR8d3Ivk3RenOrj0ica5vppe3E="
+          "Value": "sha256-X2DcBFnLJw8sY+R+qEpSmO1TJYQP8YU4iNc7FOX7DbI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cita.js",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\7lb0a0dh89-dh72lmo7ye.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000593824228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1683"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X2DcBFnLJw8sY+R+qEpSmO1TJYQP8YU4iNc7FOX7DbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:27:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"n+BicY3fhk7zLf92KdrbJ5XYN5XC/KzZH/sW4TEaX/g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n+BicY3fhk7zLf92KdrbJ5XYN5XC/KzZH/sW4TEaX/g="
+        }
+      ]
+    },
+    {
+      "Route": "js/cita.js",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\cita.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n+BicY3fhk7zLf92KdrbJ5XYN5XC/KzZH/sW4TEaX/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:27:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n+BicY3fhk7zLf92KdrbJ5XYN5XC/KzZH/sW4TEaX/g="
+        }
+      ]
+    },
+    {
+      "Route": "js/cita.js.gz",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\7lb0a0dh89-dh72lmo7ye.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X2DcBFnLJw8sY+R+qEpSmO1TJYQP8YU4iNc7FOX7DbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:27:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X2DcBFnLJw8sY+R+qEpSmO1TJYQP8YU4iNc7FOX7DbI="
         }
       ]
     },
@@ -16678,13 +16678,13 @@
       ]
     },
     {
-      "Route": "js/generic.6y2eldx8ym.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\92728zs8kr-6y2eldx8ym.gz",
+      "Route": "js/generic.js",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\92728zs8kr-m3g5iflnuy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000540540541"
+          "Quality": "0.000506585613"
         }
       ],
       "ResponseHeaders": [
@@ -16694,19 +16694,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1849"
+          "Value": "1973"
         },
         {
           "Name": "ETag",
-          "Value": "\"XswSn9UGD1UGIVD63n+qBAy5RXMIGbs34sruwxLE8WY=\""
+          "Value": "\"cIkP4sSQN2c4ecKCH9pnciEHBSP027Vo/fp409JD7uI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
+          "Value": "Tue, 04 Mar 2025 14:00:50 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -16722,26 +16722,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kmBUiVEqzOCmDQq+uJ5g9lc/v+zwy+m6uYJk2qKt3+k=\""
+          "Value": "W/\"wt7aNoE4I+1BA8hefnxMFYReaMJpNyfEIkq46wnUm0M=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "6y2eldx8ym"
-        },
-        {
-          "Name": "label",
-          "Value": "js/generic.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-kmBUiVEqzOCmDQq+uJ5g9lc/v+zwy+m6uYJk2qKt3+k="
+          "Value": "sha256-wt7aNoE4I+1BA8hefnxMFYReaMJpNyfEIkq46wnUm0M="
         }
       ]
     },
     {
-      "Route": "js/generic.6y2eldx8ym.js",
+      "Route": "js/generic.js",
       "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\generic.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -16751,7 +16743,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6409"
+          "Value": "6848"
         },
         {
           "Name": "Content-Type",
@@ -16759,11 +16751,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kmBUiVEqzOCmDQq+uJ5g9lc/v+zwy+m6uYJk2qKt3+k=\""
+          "Value": "\"wt7aNoE4I+1BA8hefnxMFYReaMJpNyfEIkq46wnUm0M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
+          "Value": "Tue, 04 Mar 2025 14:00:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wt7aNoE4I+1BA8hefnxMFYReaMJpNyfEIkq46wnUm0M="
+        }
+      ]
+    },
+    {
+      "Route": "js/generic.js.gz",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\92728zs8kr-m3g5iflnuy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cIkP4sSQN2c4ecKCH9pnciEHBSP027Vo/fp409JD7uI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 14:00:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cIkP4sSQN2c4ecKCH9pnciEHBSP027Vo/fp409JD7uI="
+        }
+      ]
+    },
+    {
+      "Route": "js/generic.m3g5iflnuy.js",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\92728zs8kr-m3g5iflnuy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000506585613"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1973"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cIkP4sSQN2c4ecKCH9pnciEHBSP027Vo/fp409JD7uI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 14:00:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wt7aNoE4I+1BA8hefnxMFYReaMJpNyfEIkq46wnUm0M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m3g5iflnuy"
+        },
+        {
+          "Name": "label",
+          "Value": "js/generic.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wt7aNoE4I+1BA8hefnxMFYReaMJpNyfEIkq46wnUm0M="
+        }
+      ]
+    },
+    {
+      "Route": "js/generic.m3g5iflnuy.js",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\generic.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wt7aNoE4I+1BA8hefnxMFYReaMJpNyfEIkq46wnUm0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 14:00:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16773,7 +16910,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6y2eldx8ym"
+          "Value": "m3g5iflnuy"
         },
         {
           "Name": "label",
@@ -16781,13 +16918,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kmBUiVEqzOCmDQq+uJ5g9lc/v+zwy+m6uYJk2qKt3+k="
+          "Value": "sha256-wt7aNoE4I+1BA8hefnxMFYReaMJpNyfEIkq46wnUm0M="
         }
       ]
     },
     {
-      "Route": "js/generic.6y2eldx8ym.js.gz",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\92728zs8kr-6y2eldx8ym.gz",
+      "Route": "js/generic.m3g5iflnuy.js.gz",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\92728zs8kr-m3g5iflnuy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16796,7 +16933,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1849"
+          "Value": "1973"
         },
         {
           "Name": "Content-Type",
@@ -16804,11 +16941,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XswSn9UGD1UGIVD63n+qBAy5RXMIGbs34sruwxLE8WY=\""
+          "Value": "\"cIkP4sSQN2c4ecKCH9pnciEHBSP027Vo/fp409JD7uI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
+          "Value": "Tue, 04 Mar 2025 14:00:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16826,7 +16963,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6y2eldx8ym"
+          "Value": "m3g5iflnuy"
         },
         {
           "Name": "label",
@@ -16834,144 +16971,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XswSn9UGD1UGIVD63n+qBAy5RXMIGbs34sruwxLE8WY="
-        }
-      ]
-    },
-    {
-      "Route": "js/generic.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\92728zs8kr-6y2eldx8ym.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000540540541"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1849"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XswSn9UGD1UGIVD63n+qBAy5RXMIGbs34sruwxLE8WY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"kmBUiVEqzOCmDQq+uJ5g9lc/v+zwy+m6uYJk2qKt3+k=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kmBUiVEqzOCmDQq+uJ5g9lc/v+zwy+m6uYJk2qKt3+k="
-        }
-      ]
-    },
-    {
-      "Route": "js/generic.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\generic.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6409"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kmBUiVEqzOCmDQq+uJ5g9lc/v+zwy+m6uYJk2qKt3+k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kmBUiVEqzOCmDQq+uJ5g9lc/v+zwy+m6uYJk2qKt3+k="
-        }
-      ]
-    },
-    {
-      "Route": "js/generic.js.gz",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\92728zs8kr-6y2eldx8ym.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1849"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XswSn9UGD1UGIVD63n+qBAy5RXMIGbs34sruwxLE8WY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-XswSn9UGD1UGIVD63n+qBAy5RXMIGbs34sruwxLE8WY="
+          "Value": "sha256-cIkP4sSQN2c4ecKCH9pnciEHBSP027Vo/fp409JD7uI="
         }
       ]
     },
@@ -17274,13 +17274,13 @@
       ]
     },
     {
-      "Route": "js/paciente.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\62tlvmph1h-v5w92q73nc.gz",
+      "Route": "js/paciente.0a0kz8mcj5.js",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\62tlvmph1h-0a0kz8mcj5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000880281690"
+          "Quality": "0.000720461095"
         }
       ],
       "ResponseHeaders": [
@@ -17290,19 +17290,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1135"
+          "Value": "1387"
         },
         {
           "Name": "ETag",
-          "Value": "\"b09q9hHr5AZboJwJLDnsK6RbJLFss84vZJWNtNL/WgM=\""
+          "Value": "\"UzOgqS0vvDxsHxikix6zAQ5FUZHEKmJvdj2xVmTVoGs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
+          "Value": "Tue, 04 Mar 2025 14:30:26 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -17318,18 +17318,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EyV6SVzYXhZbe0VXcTfqRlpiMFTfyo9D3Jy0K4OvDTM=\""
+          "Value": "W/\"aMFxMk5yCHNfbQisZgwHrgzgcGdWaN23yCNcaH5dS+k=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "0a0kz8mcj5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/paciente.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-EyV6SVzYXhZbe0VXcTfqRlpiMFTfyo9D3Jy0K4OvDTM="
+          "Value": "sha256-aMFxMk5yCHNfbQisZgwHrgzgcGdWaN23yCNcaH5dS+k="
         }
       ]
     },
     {
-      "Route": "js/paciente.js",
+      "Route": "js/paciente.0a0kz8mcj5.js",
       "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\paciente.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17339,7 +17347,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3648"
+          "Value": "5126"
         },
         {
           "Name": "Content-Type",
@@ -17347,121 +17355,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EyV6SVzYXhZbe0VXcTfqRlpiMFTfyo9D3Jy0K4OvDTM=\""
+          "Value": "\"aMFxMk5yCHNfbQisZgwHrgzgcGdWaN23yCNcaH5dS+k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EyV6SVzYXhZbe0VXcTfqRlpiMFTfyo9D3Jy0K4OvDTM="
-        }
-      ]
-    },
-    {
-      "Route": "js/paciente.js.gz",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\62tlvmph1h-v5w92q73nc.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1135"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b09q9hHr5AZboJwJLDnsK6RbJLFss84vZJWNtNL/WgM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-b09q9hHr5AZboJwJLDnsK6RbJLFss84vZJWNtNL/WgM="
-        }
-      ]
-    },
-    {
-      "Route": "js/paciente.v5w92q73nc.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\62tlvmph1h-v5w92q73nc.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000880281690"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1135"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b09q9hHr5AZboJwJLDnsK6RbJLFss84vZJWNtNL/WgM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
+          "Value": "Tue, 04 Mar 2025 14:30:26 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"EyV6SVzYXhZbe0VXcTfqRlpiMFTfyo9D3Jy0K4OvDTM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v5w92q73nc"
+          "Value": "0a0kz8mcj5"
         },
         {
           "Name": "label",
@@ -17469,13 +17377,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EyV6SVzYXhZbe0VXcTfqRlpiMFTfyo9D3Jy0K4OvDTM="
+          "Value": "sha256-aMFxMk5yCHNfbQisZgwHrgzgcGdWaN23yCNcaH5dS+k="
         }
       ]
     },
     {
-      "Route": "js/paciente.v5w92q73nc.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\paciente.js",
+      "Route": "js/paciente.0a0kz8mcj5.js.gz",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\62tlvmph1h-0a0kz8mcj5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17484,7 +17392,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3648"
+          "Value": "1387"
         },
         {
           "Name": "Content-Type",
@@ -17492,56 +17400,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EyV6SVzYXhZbe0VXcTfqRlpiMFTfyo9D3Jy0K4OvDTM=\""
+          "Value": "\"UzOgqS0vvDxsHxikix6zAQ5FUZHEKmJvdj2xVmTVoGs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v5w92q73nc"
-        },
-        {
-          "Name": "label",
-          "Value": "js/paciente.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EyV6SVzYXhZbe0VXcTfqRlpiMFTfyo9D3Jy0K4OvDTM="
-        }
-      ]
-    },
-    {
-      "Route": "js/paciente.v5w92q73nc.js.gz",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\62tlvmph1h-v5w92q73nc.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1135"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b09q9hHr5AZboJwJLDnsK6RbJLFss84vZJWNtNL/WgM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:15:55 GMT"
+          "Value": "Tue, 04 Mar 2025 14:30:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17559,7 +17422,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v5w92q73nc"
+          "Value": "0a0kz8mcj5"
         },
         {
           "Name": "label",
@@ -17567,7 +17430,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-b09q9hHr5AZboJwJLDnsK6RbJLFss84vZJWNtNL/WgM="
+          "Value": "sha256-UzOgqS0vvDxsHxikix6zAQ5FUZHEKmJvdj2xVmTVoGs="
+        }
+      ]
+    },
+    {
+      "Route": "js/paciente.js",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\62tlvmph1h-0a0kz8mcj5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000720461095"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1387"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UzOgqS0vvDxsHxikix6zAQ5FUZHEKmJvdj2xVmTVoGs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 14:30:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aMFxMk5yCHNfbQisZgwHrgzgcGdWaN23yCNcaH5dS+k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aMFxMk5yCHNfbQisZgwHrgzgcGdWaN23yCNcaH5dS+k="
+        }
+      ]
+    },
+    {
+      "Route": "js/paciente.js",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\paciente.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aMFxMk5yCHNfbQisZgwHrgzgcGdWaN23yCNcaH5dS+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 14:30:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aMFxMk5yCHNfbQisZgwHrgzgcGdWaN23yCNcaH5dS+k="
+        }
+      ]
+    },
+    {
+      "Route": "js/paciente.js.gz",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\62tlvmph1h-0a0kz8mcj5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UzOgqS0vvDxsHxikix6zAQ5FUZHEKmJvdj2xVmTVoGs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 14:30:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UzOgqS0vvDxsHxikix6zAQ5FUZHEKmJvdj2xVmTVoGs="
         }
       ]
     },

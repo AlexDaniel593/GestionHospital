@@ -24,11 +24,19 @@ namespace GestionHospital.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Admin, Patient")]
+        public IActionResult InfoPersonal()
+        {
+            return View();
+        }
+
         [Authorize(Roles = "Admin,Staff,Doctor")]
         public List<PacienteCLS> ListarPaciente()
         {
             return _pacienteBL.ListarPaciente();
         }
+
+
 
         [Authorize(Roles = "Doctor")]
         public List<PacienteCLS> ListarPacientesAsignados()
@@ -46,10 +54,17 @@ namespace GestionHospital.Controllers
             return RedirectToAction("Index");
         }
 
-        [Authorize(Roles = "Admin,Staff,Doctor")]
+        [Authorize(Roles = "Admin,Staff,Doctor,Patient")]
         public PacienteCLS? RecuperarPaciente(int idPaciente)
         {
             return _pacienteBL.RecuperarPaciente(idPaciente);
+        }
+
+        [Authorize(Roles = "Admin,Patient")]
+        public int ObtenerIdPacienteActual()
+        {
+            var userEmail = User.FindFirstValue(ClaimTypes.Email);
+            return _pacienteBL.ObtenerIdPacienteDesdeEmail(userEmail);
         }
 
         [Authorize(Roles = "Admin,Staff")]

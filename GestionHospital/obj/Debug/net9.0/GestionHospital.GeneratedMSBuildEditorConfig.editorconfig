@@ -60,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dalex/source/repos/GestionHospital/GestionHospital/Views/Paciente/InfoPersonal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcSW5mb1BlcnNvbmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dalex/source/repos/GestionHospital/GestionHospital/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

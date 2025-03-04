@@ -17,6 +17,7 @@ namespace CapaDatos
             return _context.PACIENTES.FromSqlRaw("EXEC uspListarPacientes").ToList();
         }
 
+
         public List<PacienteCLS> ListarTodosPacientes()
         {
             return _context.PACIENTES.FromSqlRaw("EXEC uspListarTodosPacientes").ToList();

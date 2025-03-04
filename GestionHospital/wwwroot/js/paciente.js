@@ -1,5 +1,13 @@
 ﻿window.onload = function () {
-    ListarPaciente();
+    const roles = userRoles.split(',');
+    const hasAccess = roles.includes('Admin') || roles.includes('Staff') || roles.includes('Doctor');
+
+    if (hasAccess) {
+        ListarPaciente();
+    } else {
+        // Si no tienes acceso, mostramos la información de paciente
+        PintarDatosPaciente();
+    }
 }
 
 let objPaciente;
@@ -64,6 +72,26 @@ function ValidarFormulario() {
 
     return isValid;
 }
+function PintarDatosPaciente() {
+    fetchGet("Paciente/ObtenerIdPacienteActual", "json", function (id) {
+        fetchGet("Paciente/RecuperarPaciente/?idPaciente=" + id, "json", function (data) {
+            if (data) {
+                document.getElementById("nombrePaciente").textContent = data.nombre || "No disponible";
+                document.getElementById("apellidoPaciente").textContent = data.apellido || "No disponible";
+
+                // Formateamos la fecha para quitar la hora
+                let fechaNacimiento = data.fechaNacimiento ? new Date(data.fechaNacimiento) : null;
+                let fechaFormateada = fechaNacimiento ? fechaNacimiento.toLocaleDateString() : "No disponible";
+                document.getElementById("fechaNacimientoPaciente").textContent = fechaFormateada;
+
+                document.getElementById("telefonoPaciente").textContent = data.telefono || "No disponible";
+                document.getElementById("emailPaciente").textContent = data.email || "No disponible";
+                document.getElementById("direccionPaciente").textContent = data.direccion || "No disponible";
+            }
+        });
+    });
+}
+
 
 
 function GuardarPaciente() {

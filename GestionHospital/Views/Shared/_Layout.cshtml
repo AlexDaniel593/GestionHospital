@@ -44,21 +44,61 @@
                     <i class="fa fa-home"></i> Home
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">
-                    <i class="fa fa-lock"></i> Privacy
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Paciente" asp-action="Index">
-                    <i class="fa-solid fa-capsules"></i> Paciente
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Medico" asp-action="Index">
-                    <i class="fa fa-medkit"></i> Medico
-                </a>
-            </li>
+
+            @if (User.IsInRole("Admin") || User.IsInRole("Staff") || User.IsInRole("Doctor"))
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Paciente" asp-action="Index">
+                        <i class="fa-solid fa-users"></i> Pacientes
+                    </a>
+                </li>
+            }
+
+            @if (User.IsInRole("Patient") )
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Paciente" asp-action="InfoPersonal">
+                        <i class="fa-solid fa-user"></i> Mi informacion
+                    </a>
+                </li>
+            }
+
+            @if (User.IsInRole("Admin") || User.IsInRole("Staff") || User.IsInRole("Doctor"))
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Medico" asp-action="Index">
+                        <i class="fa fa-medkit"></i> Médicos
+                    </a>
+                </li>
+            }
+
+
+            @if (User.IsInRole("Admin") || User.IsInRole("Staff") || User.IsInRole("Doctor") || User.IsInRole("Patient"))
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Cita" asp-action="Index">
+                        <i class="fa fa-calendar"></i> Citas
+                    </a>
+                </li>
+            }
+
+            @if (User.IsInRole("Admin") || User.IsInRole("Staff") || User.IsInRole("Doctor"))
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Tratamiento" asp-action="Index">
+                        <i class="fa fa-pills"></i> Tratamientos
+                    </a>
+                </li>
+            }
+
+            @if (User.IsInRole("Admin") || User.IsInRole("Staff") || User.IsInRole("Patient"))
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Facturacion" asp-action="Index">
+                        <i class="fa fa-money-bill-wave"></i> Facturación
+                    </a>
+                </li>
+            }
 
             <!-- Login/Logout en la parte inferior -->
             @if (SignInManager.IsSignedIn(User))
@@ -80,6 +120,7 @@
                 </li>
             }
         </ul>
+
 
     </nav>
 
@@ -185,6 +226,7 @@
 
     <!-- Incluir el modal de acceso denegado -->
     @Html.Partial("_AccessDeniedModal")
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

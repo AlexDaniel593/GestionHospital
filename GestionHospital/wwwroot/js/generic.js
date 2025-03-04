@@ -156,6 +156,19 @@ function generarTabla(res) {
     return contenido;
 }
 
+
+function pintarDatosGenerico(objDatos, propiedades, contenedorId) {
+    let contenido = "<div class='infoGenerica'>";
+
+    propiedades.forEach(prop => {
+        if (objDatos[prop]) {
+            contenido += "<p><strong>" + prop.charAt(0).toUpperCase() + prop.slice(1) + ":</strong> " + objDatos[prop] + "</p>";
+        }
+    });
+
+    contenido += "</div>";
+    document.getElementById(contenedorId).innerHTML = contenido;
+}
 function Confirmar(titulo ="Eliminar Registro", texto, callback) {
     return Swal.fire({
         title: titulo,
