@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\jquery\dist\jquery.min.js
@@ -66,15 +67,91 @@ C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstra
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\js\site.js
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+=======
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery\dist\jquery.min.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery\dist\jquery.min.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\js\tratamiento.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\js\paciente.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\js\generic.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\js\facturacion.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\css\shared.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\favicon.ico
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery\LICENSE.txt
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\js\medico.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\css\site.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation\LICENSE.md
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\css\StyleLayout.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery\dist\jquery.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\js\site.js
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+>>>>>>> a93358ee7258a1de1593af0826d16b7e12e8973b
 wwwroot\css\shared.css
 wwwroot\css\site.css
 wwwroot\css\StyleLayout.css
 wwwroot\favicon.ico
+<<<<<<< HEAD
 wwwroot\js\cita.js
+=======
+wwwroot\js\facturacion.js
+>>>>>>> a93358ee7258a1de1593af0826d16b7e12e8973b
 wwwroot\js\generic.js
 wwwroot\js\medico.js
 wwwroot\js\paciente.js
 wwwroot\js\site.js
+wwwroot\js\tratamiento.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
