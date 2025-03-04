@@ -20,14 +20,20 @@ namespace CapaNegocio
             
         }
 
-        public List<TratamientoCLS> ListarTratamiento()
+        public List<TratamientoViewCLS> ListarTratamiento()
         {
             return _tratamientoDAL.ListarTratamiento();
         }
 
+        public List<TratamientoMedicoViewCLS> ListarTratamientosMedico(int idMedico)
+        {
+            return _tratamientoDAL.ListarTratamientosMedico(idMedico);
+        }
+
         public TratamientoCLS? RecuperarTratamiento(int idTratamiento)
         {
-            return _tratamientoDAL.RecuperarTratamiento(idTratamiento);
+            TratamientoCLS tratamientoCLS = _tratamientoDAL.RecuperarTratamiento(idTratamiento);
+            return tratamientoCLS;
         }
 
 

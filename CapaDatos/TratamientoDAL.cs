@@ -18,11 +18,18 @@ namespace CapaDatos
             _context = context;
         }
 
-        public List<TratamientoCLS> ListarTratamiento()
+        public List<TratamientoViewCLS> ListarTratamiento()
         {
-            return _context.TRATAMIENTOS.FromSqlRaw("EXEC uspListarTratamiento").ToList();
+            return _context.TratamientosResultado.ToList();
         }
 
+        public List<TratamientoMedicoViewCLS> ListarTratamientosMedico(int idMedico)
+        {
+            var tratamientos = _context.TratamientosMedico
+                .Where(t => t.idMedico == idMedico) // Filtra por el ID del médico
+                .ToList();
+            return tratamientos;
+        }
         public void GuardarTratamiento(TratamientoCLS tratamiento)
         {
             var idTratamientoParam = new SqlParameter("@idTratamiento", tratamiento.idTratamiento);

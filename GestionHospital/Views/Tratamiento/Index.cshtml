@@ -40,20 +40,30 @@
                         <label for="inputIdTratamiento" class="form-label">Id Tratamiento</label>
                         <input type="text" class="form-control shadow-sm rounded" name="idTratamiento" id="idTratamiento" readonly>
                     </div>
+
+                    <div class="col-md-6">
+                        <label for="cboPaciente" class="form-label">Paciente</label>
+                        <select class="form-control shadow-sm rounded" name="idPaciente" id="idPaciente">
+                            <option value=''>Seleccione un paciente</option>
+                            <!-- Opciones dinámicas aquí -->
+                        </select>
+                        <div class="invalid-feedback">Por favor, seleccione un paciente.</div>
+                    </div>
                     <div class="col-md-6">
                         <label for="inputDescripcion" class="form-label">Descripcion</label>
                         <input type="text" class="form-control shadow-sm rounded" name="descripcion" id="descripcion">
                         <div class="invalid-feedback">Por favor, ingrese la direccion.</div>
                     </div>
+
                     <div class="col-md-6">
-                        <label for="inputFecha" class="form-label">Fecha</label>
-                        <input type="text" class="form-control shadow-sm rounded" name="fecha" id="fecha">
-                        <div class="invalid-feedback">Por favor, ingrese la fecha.</div>
+                        <label for="inputFechaHora" class="form-label">Fecha</label>
+                        <input type="date" class="form-control shadow-sm rounded" name="fecha" id="fecha">
+                        <div class="invalid-feedback">Por favor, ingrese la fecha</div>
                     </div>
                     <div class="col-md-6">
                         <label for="inputCosto" class="form-label">Costo</label>
-                        <input type="text" class="form-control shadow-sm rounded" name="costo" id="costo">
-                        <div class="invalid-feedback">Por favor, ingrese el costo.</div>
+                        <input type="number" class="form-control shadow-sm rounded" name="costo" id="costo">
+                        <div class="invalid-feedback">Por favor, ingrese un costo valido.</div>
                     </div>
                     
                 </form>
