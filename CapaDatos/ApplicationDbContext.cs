@@ -15,6 +15,8 @@ namespace CapaDatos
 
         public DbSet<MedicoCLS> MEDICOS { get; set; }
 
+        public DbSet<CitaCLS> CITAS { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

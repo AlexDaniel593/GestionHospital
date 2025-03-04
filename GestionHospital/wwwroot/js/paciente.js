@@ -7,6 +7,7 @@ let objPaciente;
 async function ListarPaciente() {
     const roles = userRoles.split(',');
     const hasAccess = roles.includes('Admin') || roles.includes('Staff');
+
     if (!hasAccess) {
         let btnNuevo = document.getElementById("btnNuevoPaciente");
         btnNuevo.style.display = "none";
