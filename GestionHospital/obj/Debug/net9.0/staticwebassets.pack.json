@@ -1,291 +1,467 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\GestionHospital.bundle.scp.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\GestionHospital.bundle.scp.css",
       "PackagePath": "staticwebassets\\GestionHospital.0epr4fp2wm.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\css\\StyleLayout.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\StyleLayout.css",
       "PackagePath": "staticwebassets\\css\\StyleLayout.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\css\\shared.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\shared.css",
       "PackagePath": "staticwebassets\\css\\shared.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\css\\site.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\favicon.ico",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\doctor\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\doctor\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\css\\style.css",
+      "PackagePath": "staticwebassets\\doctor\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\doctor\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\doctor\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\doctor\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\doctor\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\doctor\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\doctor\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\doctor\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\doctor\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\doctor\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\btn-bg.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\btn-bg.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\item1.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\item1.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\item2.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\item2.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\item3.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\item3.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\logo.png",
+      "PackagePath": "staticwebassets\\doctor\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\member1.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\member1.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\member2.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\member2.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\member3.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\member3.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\member4.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\member4.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\member5.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\member5.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\member6.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\member6.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\pattern.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\pattern.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\service1.png",
+      "PackagePath": "staticwebassets\\doctor\\img\\service1.png"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\service2.png",
+      "PackagePath": "staticwebassets\\doctor\\img\\service2.png"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\service3.png",
+      "PackagePath": "staticwebassets\\doctor\\img\\service3.png"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\service4.png",
+      "PackagePath": "staticwebassets\\doctor\\img\\service4.png"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\slide-four.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\slide-four.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\slide-one.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\slide-one.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\slide-three.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\slide-three.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\img\\slide-two.jpg",
+      "PackagePath": "staticwebassets\\doctor\\img\\slide-two.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\index.html",
+      "PackagePath": "staticwebassets\\doctor\\index.html"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\doctor\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\js\\custom.js",
+      "PackagePath": "staticwebassets\\doctor\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\doctor\\js\\gmaps.js"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\doctor\\js\\html5shiv.js"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\js\\jquery-2.1.1.js",
+      "PackagePath": "staticwebassets\\doctor\\js\\jquery-2.1.1.js"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\doctor\\js\\modernizr.js"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\js\\respond.min.js",
+      "PackagePath": "staticwebassets\\doctor\\js\\respond.min.js"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\doctor\\js\\smoothscroll.js",
+      "PackagePath": "staticwebassets\\doctor\\js\\smoothscroll.js"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\cita.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\img\\dctor.jpg",
+      "PackagePath": "staticwebassets\\img\\dctor.jpg"
+    },
+    {
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\cita.js",
       "PackagePath": "staticwebassets\\js\\cita.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\facturacion.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\facturacion.js",
       "PackagePath": "staticwebassets\\js\\facturacion.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\generic.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\generic.js",
       "PackagePath": "staticwebassets\\js\\generic.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\medico.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\medico.js",
       "PackagePath": "staticwebassets\\js\\medico.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\paciente.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\paciente.js",
       "PackagePath": "staticwebassets\\js\\paciente.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\site.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\tratamiento.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\js\\tratamiento.js",
       "PackagePath": "staticwebassets\\js\\tratamiento.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {

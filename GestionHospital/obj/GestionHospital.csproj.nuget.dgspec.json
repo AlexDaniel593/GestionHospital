@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\GestionHospital.csproj": {}
+    "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\GestionHospital.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\CapaDatos.csproj": {
+    "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\CapaDatos.csproj",
-        "packagesPath": "C:\\Users\\dalex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\obj\\",
+        "projectPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\CapaDatos.csproj",
+        "packagesPath": "C:\\Users\\pcsus\\.nuget\\packages\\",
+        "outputPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dalex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pcsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj": {
-                "projectPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj"
+              "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj": {
+                "projectPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -105,24 +105,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj": {
+    "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj",
+        "projectUniqueName": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj",
         "projectName": "CapaEntidad",
-        "projectPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj",
-        "packagesPath": "C:\\Users\\dalex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\obj\\",
+        "projectPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj",
+        "packagesPath": "C:\\Users\\pcsus\\.nuget\\packages\\",
+        "outputPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaEntidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dalex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pcsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -149,7 +149,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -170,24 +170,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaNegocio\\CapaNegocio.csproj": {
+    "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaNegocio\\CapaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaNegocio\\CapaNegocio.csproj",
+        "projectUniqueName": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaNegocio\\CapaNegocio.csproj",
         "projectName": "CapaNegocio",
-        "projectPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaNegocio\\CapaNegocio.csproj",
-        "packagesPath": "C:\\Users\\dalex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaNegocio\\obj\\",
+        "projectPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaNegocio\\CapaNegocio.csproj",
+        "packagesPath": "C:\\Users\\pcsus\\.nuget\\packages\\",
+        "outputPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dalex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pcsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -202,11 +202,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\CapaDatos.csproj": {
-                "projectPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\CapaDatos.csproj"
+              "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaDatos\\CapaDatos.csproj"
               },
-              "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj": {
-                "projectPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj"
+              "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj": {
+                "projectPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj"
               }
             }
           }
@@ -221,7 +221,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -242,24 +242,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\GestionHospital.csproj": {
+    "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\GestionHospital.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\GestionHospital.csproj",
+        "projectUniqueName": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\GestionHospital.csproj",
         "projectName": "GestionHospital",
-        "projectPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\GestionHospital.csproj",
-        "packagesPath": "C:\\Users\\dalex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\",
+        "projectPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\GestionHospital.csproj",
+        "packagesPath": "C:\\Users\\pcsus\\.nuget\\packages\\",
+        "outputPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dalex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pcsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -274,8 +274,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaNegocio\\CapaNegocio.csproj": {
-                "projectPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaNegocio\\CapaNegocio.csproj"
+              "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaNegocio\\CapaNegocio.csproj": {
+                "projectPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\CapaNegocio\\CapaNegocio.csproj"
               }
             }
           }
@@ -290,7 +290,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -340,7 +340,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

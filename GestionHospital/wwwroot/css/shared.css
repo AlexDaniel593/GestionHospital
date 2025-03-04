@@ -1,7 +1,7 @@
 ﻿body {
     font-family: "Grandstander", cursive;
     display: flex;
-    background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+    background: linear-gradient(135deg, #e6f0ff, #cce0ff); /* Gradiente azul claro */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -17,7 +17,7 @@
     left: 0;
     height: 100%;
     width: 220px;
-    background: linear-gradient(180deg, #2c3e50, #1abc9c);
+    background: linear-gradient(180deg, #1c2e4a, #3a7bd5); /* Gradiente azul oscuro a azul medio */
     padding: 20px 0;
     transition: background-color 0.3s ease;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
@@ -56,7 +56,7 @@
     }
 
     .nav-item.active {
-        background-color: #1abc9c;
+        background-color: #3a7bd5; /* Azul medio */
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     }
 
@@ -65,22 +65,21 @@
         }
 
 .content {
-
     margin-left: 220px;
     padding: 20px;
     width: calc(100% - 220px);
-    background: linear-gradient(90deg, #ffffff, #f8f9fa);
+    background: linear-gradient(90deg, #ffffff, #f0f7ff); /* Gradiente blanco a azul muy claro */
     transition: margin-left 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Estilos para el modo oscuro */
 body.dark-mode {
-    background: linear-gradient(135deg, #121212, #1e272e);
+    background: linear-gradient(135deg, #0a1f3d, #1c2e4a); /* Gradiente azul oscuro */
     color: #f1f1f1;
 }
 
     body.dark-mode .side-nav {
-        background: linear-gradient(180deg, #1e272e, #1abc9c);
+        background: linear-gradient(180deg, #1c2e4a, #3a7bd5); /* Gradiente azul oscuro a azul medio */
     }
 
     body.dark-mode .nav-item a {
@@ -92,17 +91,17 @@ body.dark-mode {
     }
 
     body.dark-mode .content {
-        background: linear-gradient(90deg, #2c3e50, #34495e);
+        background: linear-gradient(90deg, #1c2e4a, #2a4a6e); /* Gradiente azul oscuro */
         color: #ecf0f1;
     }
 
     body.dark-mode footer {
-        background-color: #1e272e;
+        background-color: #1c2e4a; /* Azul oscuro */
         color: #dcdde1;
     }
 
         body.dark-mode footer a {
-            color: #1abc9c;
+            color: #3a7bd5; /* Azul medio */
         }
 
 /* Estilos para el botón deslizable */
@@ -144,7 +143,7 @@ body.dark-mode {
     }
 
 input:checked + .slider {
-    background-color: #1abc9c;
+    background-color: #3a7bd5; /* Azul medio */
 }
 
     input:checked + .slider:before {
@@ -207,13 +206,13 @@ input:checked + .slider {
     }
 
         .footer a:hover {
-            color: #1abc9c;
+            color: #3a7bd5; /* Azul medio */
         }
 
     .footer .footer-title {
         font-size: 1.2rem;
         margin-bottom: 1rem;
-        color: #1abc9c;
+        color: #3a7bd5; /* Azul medio */
     }
 
     .footer .list-unstyled li {
@@ -234,7 +233,7 @@ input:checked + .slider {
     }
 
 body.dark-mode .footer {
-    background-color: #1e272e;
+    background-color: #1c2e4a; /* Azul oscuro */
     color: #dcdde1;
 }
 
@@ -243,9 +242,9 @@ body.dark-mode .footer {
     }
 
         body.dark-mode .footer a:hover {
-            color: #1abc9c;
+            color: #3a7bd5; /* Azul medio */
         }
 
     body.dark-mode .footer .footer-title {
-        color: #1abc9c;
+        color: #3a7bd5; /* Azul medio */
     }
