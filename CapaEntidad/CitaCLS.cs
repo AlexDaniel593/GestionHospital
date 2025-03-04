@@ -7,14 +7,23 @@ namespace CapaEntidad
     public class CitaCLS
     {
         [Key]
-        [Column("ID")] // indicar explícitamente a EF Core que la propiedad idCita se mapea a la columna ID
+        [Column("ID")]
         public int idCita { get; set; }
+
         public int idPaciente { get; set; }
+
+        public string nombreCompletoPaciente { get; set; }
+
         public int idMedico { get; set; }
+        public string nombreCompletoMedico { get; set; }
+
         public DateTime fechaHora { get; set; }
+
         public string estado { get; set; }
 
         public int BHABILITADO { get; set; }
-
     }
+
+
+
 }

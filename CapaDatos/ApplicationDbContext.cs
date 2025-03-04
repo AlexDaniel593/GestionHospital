@@ -14,12 +14,15 @@ namespace CapaDatos
         public DbSet<PacienteCLS> PACIENTES { get; set; }
 
         public DbSet<MedicoCLS> MEDICOS { get; set; }
-
         public DbSet<CitaCLS> CITAS { get; set; }
+
+        public DbSet<CitaCLS> CitasResultado { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+            builder.Entity<CitaCLS>().HasNoKey().ToView("CitasResultado");
         }
 
     }

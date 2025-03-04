@@ -29,7 +29,8 @@ builder.Services.AddScoped<PacienteBL>();
 builder.Services.AddScoped<AccountBL>();
 builder.Services.AddScoped<MedicoDAL>();
 builder.Services.AddScoped<MedicoBL>();
-
+builder.Services.AddScoped<CitaDAL>();
+builder.Services.AddScoped<CitaBL>();
 
 var app = builder.Build();
 

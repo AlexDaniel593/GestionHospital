@@ -15,8 +15,10 @@ namespace CapaDatos
 
         public List<CitaCLS> ListarCita()
         {
-            return _context.CITAS.FromSqlRaw("EXEC uspListarCitas").ToList();
+            return _context.CitasResultado.ToList();
         }
+
+
 
         public void GuardarCita(CitaCLS cita)
         {
@@ -42,5 +44,6 @@ namespace CapaDatos
         {
             _context.Database.ExecuteSqlRaw("EXEC uspEliminarCita @idCita", new SqlParameter("@idCita", idCita));
         }
+
     }
 }
