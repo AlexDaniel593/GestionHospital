@@ -41,7 +41,7 @@
         <ul class="nav-menu">
             <li class="nav-item">
                 <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
-                    <i class="fa fa-home"></i> Home
+                    <i class="fa fa-home"></i> Inicio
                 </a>
             </li>
 
@@ -106,7 +106,7 @@
                 <li class="nav-item nav-login">
                     <form asp-controller="Account" asp-action="Logout" method="post" class="form-inline">
                         <button type="submit" class="nav-link">
-                            <i class="fa fa-sign-out-alt"></i> Logout
+                            <i class="fa fa-sign-out-alt"></i> Cerrar Sesion
                         </button>
                     </form>
                 </li>
@@ -115,7 +115,7 @@
             {
                 <li class="nav-item nav-login">
                     <a class="nav-link" asp-controller="Account" asp-action="Login">
-                        <i class="fa fa-sign-in-alt"></i> Login
+                        <i class="fa fa-sign-in-alt"></i> Iniciar Sesion
                     </a>
                 </li>
             }
@@ -146,7 +146,7 @@
                     <div class="col-md-4 mb-4">
                         <h5 class="footer-title">Enlaces Rápidos</h5>
                         <ul class="list-unstyled">
-                            <li><a href="https://www.salud.gob.ec/" target="_blank" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Inicio</a></li>
+                            <li> <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><i class="fas fa-chevron-right me-2"></i> Inicio</></a></li>
                             <li><a href="https://www.salud.gob.ec/servicios-3/" target="_blank" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Servicios</a></li>
                             <li><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Info"><i class="fas fa-chevron-right me-2"></i> Acerca de Nosotros</a></li>
                             <li><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Info"><i class="fas fa-chevron-right me-2"></i> Política de Privacidad</a></li>
