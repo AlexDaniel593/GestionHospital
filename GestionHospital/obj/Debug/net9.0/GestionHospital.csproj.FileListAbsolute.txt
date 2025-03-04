@@ -626,4 +626,4 @@ D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Deb
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\GestionHospital.pdb
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\GestionHospital.genruntimeconfig.cache
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\ref\GestionHospital.dll
-D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\c8vl543l70-iejdb09yuq.gz
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\c8vl543l70-hs1z7h6nh9.gz
