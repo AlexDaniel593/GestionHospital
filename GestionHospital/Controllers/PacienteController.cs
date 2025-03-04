@@ -24,7 +24,7 @@ namespace GestionHospital.Controllers
             return View();
         }
 
-        [Authorize(Roles = "Admin,Staff")]
+        [Authorize(Roles = "Admin,Staff,Doctor")]
         public List<PacienteCLS> ListarPaciente()
         {
             return _pacienteBL.ListarPaciente();

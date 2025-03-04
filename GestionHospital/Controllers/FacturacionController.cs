@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using CapaNegocio;
 using CapaEntidad;
-using System.Security.Claims;
 
 
 namespace GestionHospital.Controllers

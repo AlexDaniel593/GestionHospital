@@ -31,6 +31,11 @@ builder.Services.AddScoped<MedicoDAL>();
 builder.Services.AddScoped<MedicoBL>();
 builder.Services.AddScoped<CitaDAL>();
 builder.Services.AddScoped<CitaBL>();
+builder.Services.AddScoped<TratamientoDAL>();
+builder.Services.AddScoped<TratamientoBL>();
+builder.Services.AddScoped<FacturacionDAL>();
+builder.Services.AddScoped<FacturacionBL>();
+
 
 var app = builder.Build();
 

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using CapaNegocio;
 using CapaEntidad;
+using System.Security.Claims;
 
 namespace GestionHospital.Controllers
 {
@@ -21,7 +22,7 @@ namespace GestionHospital.Controllers
             return View();
         }
 
-        [Authorize(Roles = "Admin, Staff")]
+        [Authorize(Roles = "Admin, Staff, Doctor")]
         public List<MedicoCLS> ListarMedico()
         {
             return _medicoBL.ListarMedico();
@@ -41,6 +42,13 @@ namespace GestionHospital.Controllers
         public MedicoCLS? RecuperarMedico(int idMedico)
         {
             return _medicoBL.RecuperarMedico(idMedico);
+        }
+
+        [Authorize(Roles = "Admin, Doctor")]
+        public int ObtenerIdMedicoActual()
+        {
+            var userEmail = User.FindFirstValue(ClaimTypes.Email);
+            return _medicoBL.ObtenerIdDoctorDesdeEmail(userEmail);
         }
 
         [Authorize(Roles = "Admin")]

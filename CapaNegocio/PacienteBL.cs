@@ -42,6 +42,21 @@ namespace CapaNegocio
             }
         }
 
+        public int ObtenerIdPacienteDesdeEmail(string email)
+        {
+            var doctor = _context.PACIENTES
+                     .Where(m => m.email == email)
+                     .Select(m => m.idPaciente)
+                     .FirstOrDefault();
+
+            if (doctor == 0)
+            {
+                throw new Exception("No se encontró un médico asociado al correo proporcionado.");
+            }
+
+            return doctor;
+        }
+
         public PacienteCLS? RecuperarPaciente(int idPaciente)
         {
             return _pacienteDAL.RecuperarPaciente(idPaciente);

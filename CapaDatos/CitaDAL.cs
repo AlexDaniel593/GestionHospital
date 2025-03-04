@@ -13,11 +13,31 @@ namespace CapaDatos
             _context = context;
         }
 
-        public List<CitaCLS> ListarCita()
+        public List<CitaViewCLS> ListarCita()
         {
             return _context.CitasResultado.ToList();
         }
 
+        public List<CitaViewCLS> ListarCitasMedico(int idMedico)
+        {
+            // Filtra y ordena las citas por fechaHora de forma ascendente
+            var citas = _context.CitasResultado
+                                .Where(c => c.idMedico == idMedico)
+                                .OrderBy(c => c.fechaHora)  // Ordena de manera ascendente
+                                .ToList();
+
+            return citas;
+        }
+
+        public List<CitaViewCLS> ListarCitasPaciente(int idPaciente)
+        {
+            // Filtra y ordena las citas por fechaHora de forma ascendente
+            var citas = _context.CitasResultado
+                                .Where(c => c.idPaciente == idPaciente)
+                                .OrderBy(c => c.fechaHora)  // Ordena de manera ascendente
+                                .ToList();
+            return citas;
+        }
 
 
         public void GuardarCita(CitaCLS cita)

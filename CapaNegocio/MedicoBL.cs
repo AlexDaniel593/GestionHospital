@@ -72,12 +72,17 @@ namespace CapaNegocio
 
         public int ObtenerIdDoctorDesdeEmail(string email)
         {
-            var doctor = _context.MEDICOS.FirstOrDefault(m => m.email == email);
-            if (doctor != null)
+            var doctor = _context.MEDICOS
+                     .Where(m => m.email == email)
+                     .Select(m => m.idMedico)
+                     .FirstOrDefault();
+
+            if (doctor == 0)
             {
-                return doctor.idMedico;
+                throw new Exception("No se encontró un médico asociado al correo proporcionado.");
             }
-            throw new Exception("No se encontró un médico asociado al correo proporcionado.");
+
+            return doctor;
         }
 
         private async Task CrearUsuarioMedico(string email, string contrasena)

@@ -12,13 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-<<<<<<< HEAD
       <Fingerprint>xvz5riu5ti</Fingerprint>
       <Integrity>ExjYe1re056xcEQZxKRqOCxvgDoBpzj43YMPMWBbqWg=</Integrity>
-=======
-      <Fingerprint>2wbl1zpltk</Fingerprint>
-      <Integrity>cgyuj3ZQh3ExrWvfCYvMpHJwcC7+6rMxf3n0YkM+uT0=</Integrity>
->>>>>>> a93358ee7258a1de1593af0826d16b7e12e8973b
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\shared.css'))</OriginalItemSpec>
@@ -95,39 +90,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GestionHospital.0epr4fp2wm.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
-<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cita.js'))">
-=======
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\facturacion.js'))">
->>>>>>> a93358ee7258a1de1593af0826d16b7e12e8973b
       <SourceType>Package</SourceType>
       <SourceId>GestionHospital</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GestionHospital</BasePath>
-<<<<<<< HEAD
       <RelativePath>js/cita.js</RelativePath>
-=======
-      <RelativePath>js/facturacion.js</RelativePath>
->>>>>>> a93358ee7258a1de1593af0826d16b7e12e8973b
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-<<<<<<< HEAD
-      <Fingerprint>ktyd8qa7ne</Fingerprint>
-      <Integrity>eP56tqKJZNzcR5Oce0IVVudYB0sVptpHOthHSf1TMQk=</Integrity>
+      <Fingerprint>u86eg4xc8j</Fingerprint>
+      <Integrity>4jghR4vdEHWsjv74PMc+qJIJU7lnOwLYgNGuBp4JcLY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cita.js'))</OriginalItemSpec>
-=======
-      <Fingerprint>mxrmmm3g93</Fingerprint>
-      <Integrity>FqvLIxvD/xqMhH47W6uXQ2AQnOvKiwo7LlxQm3dJ70E=</Integrity>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\facturacion.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>GestionHospital</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GestionHospital</BasePath>
+      <RelativePath>js/facturacion.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>oy7cr1ejm1</Fingerprint>
+      <Integrity>sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\facturacion.js'))</OriginalItemSpec>
->>>>>>> a93358ee7258a1de1593af0826d16b7e12e8973b
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\generic.js'))">
       <SourceType>Package</SourceType>
@@ -213,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3qmdrar993</Fingerprint>
-      <Integrity>SwcEZio492Mc4TDDO9wbMBs23KrNdiWkRPLaLdhXR4g=</Integrity>
+      <Fingerprint>p4uj0lc0zp</Fingerprint>
+      <Integrity>t6xW0FgxldiRkmab/krpqw0C4Y7i4jjCaBb/kn6+11o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\tratamiento.js'))</OriginalItemSpec>

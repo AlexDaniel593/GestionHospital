@@ -12,10 +12,21 @@ namespace CapaNegocio
             _citaDAL = citaDAL;
         }
 
-        public List<CitaCLS> ListarCita()
+        public List<CitaViewCLS> ListarCita()
         {
             return _citaDAL.ListarCita();
         }
+
+        public List<CitaViewCLS> ListarCitasMedico(int idMedico)
+        {
+            return _citaDAL.ListarCitasMedico(idMedico);
+        }
+
+        public List<CitaViewCLS> ListarCitasPaciente(int idPaciente)
+        {
+            return _citaDAL.ListarCitasPaciente(idPaciente);
+        }
+
 
         public void GuardarCita(CitaCLS cita)
         {
