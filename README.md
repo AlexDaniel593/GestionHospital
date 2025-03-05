@@ -83,24 +83,50 @@ Este endpoint realizará lo siguiente:
 
 ---
 
-# Instrucciones para Crear un Sistema de Gestión Hospitalaria en ASP.NET Core MVC
+# Proyecto de Gestión Hospitalaria en ASP.NET Core MVC
 
-### 1. Requisitos Previos
-Antes de comenzar, asegúrate de contar con los siguientes programas y herramientas:
-- Visual Studio 2022 con .NET Core instalado.
+## Introducción
+
+Aqui se describe el desarrollo de un sistema web de gestión hospitalaria diseñado para administrar la información de pacientes, médicos, especialidades médicas, citas, tratamientos y facturación. La implementación está basada en ASP.NET Core MVC, lo que proporciona una arquitectura robusta y escalable para facilitar la administración y mantenimiento del sistema.
+
+## Objetivos del Proyecto
+
+- Desarrollar una plataforma web para la gestión de pacientes, médicos y citas médicas.
+- Implementar una interfaz de usuario moderna y responsiva utilizando Bootstrap.
+- Proporcionar un sistema seguro con autenticación y autorización basada en roles.
+- Desplegar el sistema en la nube utilizando un servicio gratuito de hosting como Somee.com.
+
+## 1. Requisitos Previos
+
+Antes de comenzar con la implementación del sistema, es necesario contar con las siguientes herramientas y programas:
+
+- Visual Studio 2022 con soporte para .NET Core.
 - SQL Server y SQL Server Management Studio (SSMS).
-- Bootstrap o Materialize CSS para el diseño de la interfaz.
-- JavaScript para mejorar la interactividad del sistema.
+- Bootstrap o Materialize CSS para la creación de una interfaz moderna y responsiva.
+- JavaScript para la mejora de la interactividad del sistema.
 
-### 2. Descripción del Proyecto
-El sistema de gestión hospitalaria permitirá administrar pacientes, médicos, citas médicas, tratamientos y facturación. Se implementará utilizando ASP.NET Core MVC y una arquitectura por capas para facilitar la escalabilidad y mantenimiento del proyecto.
+## 2. Descripción del Proyecto
 
-### 3. Creación de la Base de Datos
-Se debe diseñar una base de datos relacional en SQL Server que contenga al menos seis tablas, tales como:
+El sistema permitirá gestionar los siguientes módulos:
+
+- **Pacientes**: Registro, actualización y consulta de pacientes.
+- **Médicos**: Administración de la información de los médicos.
+- **Especialidades**: Gestión de especialidades médicas disponibles.
+- **Citas**: Programación y gestión de citas médicas.
+- **Tratamientos**: Información sobre tratamientos aplicados a pacientes.
+- **Facturación**: Generación de facturas y consultas sobre pagos realizados.
+
+La arquitectura del sistema se basa en ASP.NET Core MVC, lo que proporciona una separación clara entre las capas de presentación, negocio y acceso a datos. Además, se utiliza Entity Framework Core para la interacción con la base de datos.
+
+## 3. Creación de la Base de Datos
+
+El sistema se apoya en una base de datos relacional en SQL Server, que incluye las siguientes tablas:
+
 - **Pacientes**: Información personal y médica de los pacientes.
 - **Médicos**: Datos de los médicos registrados en el hospital.
 - **Especialidades**: Listado de especialidades médicas disponibles.
 - **Citas**: Registro de las citas médicas programadas.
 - **Tratamientos**: Información sobre los tratamientos aplicados a los pacientes.
 - **Facturación**: Registro de los pagos y facturas generadas.
+
 
