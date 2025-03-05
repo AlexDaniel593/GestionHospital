@@ -195,17 +195,14 @@ function Exito(titulo = "Operacion realizado con Exito") {
 }
 
 function Fallo(titulo = "Ha ocurrido un problema con la Operacion",
-                mensaje = "Por favor, inténtelo de nuevo más tarde.") {
+    mensaje = "Por favor, inténtelo de nuevo más tarde.") {
     Swal.fire({
         title: titulo,
         text: mensaje,
-        icon: "error",
-        draggable: true
+        icon: "error"
     });
-    setTimeout(() => {
-        swalInstance.close();
-    }, 5000);
 }
+
 
 function AlertaCopiar(textoACopiar = "Copiado al portapapeles.",
     _title = "Asegurate de Guardar tu informacion",

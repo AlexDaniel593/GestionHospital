@@ -106,17 +106,20 @@
     </div>
 
     <!-- Botón de Registrar -->
-    <button type="submit" class="btn btn-primary w-100 mt-4">
-        <i class="fas fa-user-plus"></i> Registrar
-    </button>
+            <button type="submit" onclick="validarFormulario(event)" class="btn btn-primary w-100 mt-4">
+                <i class="fas fa-user-plus"></i> Registrar
+            </button>
+
+
 </form>
 
     </div>
 </div>
 
+<script src="~/js/generic.js"></script>
+<script src="~/js/register.js"></script>
+
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
 
-<script src="~/js/generic.js"></script>
-<script src="~/js/register.js"></script>

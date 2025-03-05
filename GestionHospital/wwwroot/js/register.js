@@ -23,7 +23,9 @@
 }
 
 
-function validarFormulario() {
+function validarFormulario(event) {
     const password = document.getElementById('Password').value;
-    return validarContrasena(password);
+    if (!validarContrasena(password)) {
+        event.preventDefault(); // Evita que el formulario se envíe
+    }
 }
