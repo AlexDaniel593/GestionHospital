@@ -3,12 +3,15 @@
   "WorkspaceRootPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\gestionhospital\\views\\medico\\infopersonal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\medico\\infopersonal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pcsus\\AppData\\Local\\Temp\\.vsdbgsrc\\00fb8f6e0e0926f906a5aa10adc3a21901a7c366fa464277a0763d24cc18be40\\Monitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\gestionhospital\\views\\paciente\\infopersonal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\paciente\\infopersonal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\gestionhospital\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\gestionhospital\\views\\paciente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\paciente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +30,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InfoPersonal.cshtml",
-              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
-              "RelativeDocumentMoniker": "GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
-              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
-              "RelativeToolTip": "GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Title": "Monitor.cs",
+              "DocumentMoniker": "C:\\Users\\pcsus\\AppData\\Local\\Temp\\.vsdbgsrc\\00fb8f6e0e0926f906a5aa10adc3a21901a7c366fa464277a0763d24cc18be40\\Monitor.cs",
+              "ToolTip": "C:\\Users\\pcsus\\AppData\\Local\\Temp\\.vsdbgsrc\\00fb8f6e0e0926f906a5aa10adc3a21901a7c366fa464277a0763d24cc18be40\\Monitor.cs [Solo lectura]",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAawGIAAABJAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T04:15:05.55Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Paciente\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionHospital\\Views\\Paciente\\Index.cshtml",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Paciente\\Index.cshtml",
+              "RelativeToolTip": "GestionHospital\\Views\\Paciente\\Index.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwFAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T03:57:13.718Z",
+              "WhenOpened": "2025-03-05T04:12:20.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InfoPersonal.cshtml",
-              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Paciente\\InfoPersonal.cshtml",
-              "RelativeDocumentMoniker": "GestionHospital\\Views\\Paciente\\InfoPersonal.cshtml",
-              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Paciente\\InfoPersonal.cshtml",
-              "RelativeToolTip": "GestionHospital\\Views\\Paciente\\InfoPersonal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T03:41:51.203Z",
+              "Title": "shared.css",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\shared.css",
+              "RelativeDocumentMoniker": "GestionHospital\\wwwroot\\css\\shared.css",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\shared.css",
+              "RelativeToolTip": "GestionHospital\\wwwroot\\css\\shared.css",
+              "ViewState": "AgIAAN8AAAAAAAAAAADwvzQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-05T04:08:54.974Z",
               "EditorCaption": ""
             }
           ]

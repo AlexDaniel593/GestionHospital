@@ -248,3 +248,62 @@ body.dark-mode .footer {
     body.dark-mode .footer .footer-title {
         color: #3a7bd5; /* Azul medio */
     }
+
+/* Estilos para el modal en modo oscuro */
+body.dark-mode .modal-content {
+    background-color: #1c2e4a; /* Fondo oscuro */
+    color: #ecf0f1; /* Texto claro */
+}
+
+body.dark-mode .modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Borde inferior claro */
+}
+
+body.dark-mode .modal-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Borde superior claro */
+}
+
+body.dark-mode .modal-title {
+    color: #ecf0f1; /* Texto claro para el título */
+}
+
+body.dark-mode .btn-close {
+    filter: invert(1); /* Invertir el color del ícono de cierre para que sea visible en fondo oscuro */
+}
+
+body.dark-mode .form-control {
+    background-color: #2a4a6e; /* Fondo oscuro para los inputs */
+    color: #ecf0f1; /* Texto claro para los inputs */
+    border-color: rgba(255, 255, 255, 0.1); /* Borde claro para los inputs */
+}
+
+    body.dark-mode .form-control:focus {
+        background-color: #2a4a6e; /* Fondo oscuro para los inputs enfocados */
+        color: #ecf0f1; /* Texto claro para los inputs enfocados */
+        border-color: #3a7bd5; /* Borde azul medio para los inputs enfocados */
+        box-shadow: 0 0 0 0.25rem rgba(58, 123, 213, 0.25); /* Sombra azul medio para los inputs enfocados */
+    }
+
+body.dark-mode .invalid-feedback {
+    color: #ff6b6b; /* Color rojo claro para los mensajes de error */
+}
+
+body.dark-mode .btn-success {
+    background-color: #28a745; /* Verde para el botón de guardar */
+    border-color: #28a745;
+}
+
+body.dark-mode .btn-secondary {
+    background-color: #6c757d; /* Gris para el botón de limpiar */
+    border-color: #6c757d;
+}
+
+body.dark-mode .btn-success:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el mouse */
+    border-color: #1e7e34;
+}
+
+body.dark-mode .btn-secondary:hover {
+    background-color: #5a6268; /* Gris más oscuro al pasar el mouse */
+    border-color: #545b62;
+}

@@ -48,17 +48,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"go9xsolj3z"},{"Name":"integrity","Value":"sha256-QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c="},{"Name":"label","Value":"_content/GestionHospital/css/register.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1922"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 03:37:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GestionHospital/css/shared.5guwbuxy5m.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\shared.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5guwbuxy5m"},{"Name":"integrity","Value":"sha256-2\u002BqMaSOQ2DbBhgvgT3mD3IF8MGJJF8o4QNMZO6pkzAI="},{"Name":"label","Value":"_content/GestionHospital/css/shared.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5398"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222\u002BqMaSOQ2DbBhgvgT3mD3IF8MGJJF8o4QNMZO6pkzAI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 03:19:02 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GestionHospital/css/shared.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\shared.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2\u002BqMaSOQ2DbBhgvgT3mD3IF8MGJJF8o4QNMZO6pkzAI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5398"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222\u002BqMaSOQ2DbBhgvgT3mD3IF8MGJJF8o4QNMZO6pkzAI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 03:19:02 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KrcnCHMCLU/r1FV7h5QJWVaDCDR0AkDTs26QVLGvXMk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7339"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KrcnCHMCLU/r1FV7h5QJWVaDCDR0AkDTs26QVLGvXMk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 04:14:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GestionHospital/css/shared.uy7u9bt9qq.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\shared.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uy7u9bt9qq"},{"Name":"integrity","Value":"sha256-KrcnCHMCLU/r1FV7h5QJWVaDCDR0AkDTs26QVLGvXMk="},{"Name":"label","Value":"_content/GestionHospital/css/shared.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7339"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KrcnCHMCLU/r1FV7h5QJWVaDCDR0AkDTs26QVLGvXMk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 04:14:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GestionHospital/css/site.b9sayid5wm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

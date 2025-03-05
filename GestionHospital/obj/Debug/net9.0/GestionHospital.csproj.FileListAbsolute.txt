@@ -623,7 +623,6 @@ D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Deb
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\GestionHospital.genruntimeconfig.cache
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\ref\GestionHospital.dll
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\ce4gvt0z5r-aehfvrmknf.gz
-D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\c8vl543l70-5guwbuxy5m.gz
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\ce4gvt0z5r-txrowe1r4j.gz
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\th9pcjl0mf-3r8b2a0bt1.gz
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\c8vl543l70-2270dj0o80.gz
@@ -643,3 +642,4 @@ D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Deb
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\62tlvmph1h-1bmeodnnq4.gz
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\iuqvm1mr8t-f6k2qq6ijj.gz
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\cbj4oxrkzp-go9xsolj3z.gz
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\c8vl543l70-uy7u9bt9qq.gz
