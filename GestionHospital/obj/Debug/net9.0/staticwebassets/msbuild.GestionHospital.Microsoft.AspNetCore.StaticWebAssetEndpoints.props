@@ -123,14 +123,14 @@
     <StaticWebAssetEndpoint Include="_content/GestionHospital/js/facturacion.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\facturacion.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2912"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 10:06:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6146"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 01:41:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GestionHospital/js/facturacion.oy7cr1ejm1.js">
+    <StaticWebAssetEndpoint Include="_content/GestionHospital/js/facturacion.k72h621hga.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\facturacion.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oy7cr1ejm1"},{"Name":"integrity","Value":"sha256-sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic="},{"Name":"label","Value":"_content/GestionHospital/js/facturacion.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2912"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 10:06:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k72h621hga"},{"Name":"integrity","Value":"sha256-cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg="},{"Name":"label","Value":"_content/GestionHospital/js/facturacion.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6146"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 01:41:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GestionHospital/js/generic.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\generic.js'))</AssetFile>

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CapaEntidad
 {
@@ -13,6 +9,7 @@ namespace CapaEntidad
         [Key]
         [Column("ID")] // indicar explícitamente a EF Core que la propiedad idFacturacion se mapea a la columna ID
         public int idFacturacion { get; set; }
+        [Column("PACIENTEID")]
         public int idPaciente { get; set; }
         public decimal monto { get; set; }
         public string metodoPago { get; set; }

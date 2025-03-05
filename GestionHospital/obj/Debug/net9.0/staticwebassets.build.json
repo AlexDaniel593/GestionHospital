@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6XL3U7LGW8pufOlMRM/lzISTi7VxdR8NiTF+L3Zdwts=",
+  "Hash": "JDOYhJZMzl3bfVwZgfW2IriQ/Ju6jnAMv7NBau+YPT8=",
   "Source": "GestionHospital",
   "BasePath": "_content/GestionHospital",
   "Mode": "Default",
@@ -2012,12 +2012,12 @@
       "OriginalItemSpec": "C:\\Users\\dalex\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\9gpk7cwhfg-oy7cr1ejm1.gz",
+      "Identity": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\9gpk7cwhfg-k72h621hga.gz",
       "SourceId": "GestionHospital",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/GestionHospital",
-      "RelativePath": "js/facturacion#[.{fingerprint=oy7cr1ejm1}]?.js.gz",
+      "RelativePath": "js/facturacion#[.{fingerprint=k72h621hga}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2026,8 +2026,8 @@
       "RelatedAsset": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\facturacion.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "g5ng5vvs9u",
-      "Integrity": "zDXHZzUx1YqPzlhfOhGUIHxct8/uJiJJhURnQj82lDA=",
+      "Fingerprint": "mcqt1ci4sw",
+      "Integrity": "ppuiHkP8p8kEln2M95F8pcMt4wrBVhczPoUZwpc8Bso=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\facturacion.js"
@@ -4483,8 +4483,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oy7cr1ejm1",
-      "Integrity": "sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic=",
+      "Fingerprint": "k72h621hga",
+      "Integrity": "cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\facturacion.js"
@@ -17546,12 +17546,12 @@
     },
     {
       "Route": "js/facturacion.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\9gpk7cwhfg-oy7cr1ejm1.gz",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\9gpk7cwhfg-k72h621hga.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001038421599"
+          "Quality": "0.000611246944"
         }
       ],
       "ResponseHeaders": [
@@ -17561,15 +17561,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "962"
+          "Value": "1635"
         },
         {
           "Name": "ETag",
-          "Value": "\"zDXHZzUx1YqPzlhfOhGUIHxct8/uJiJJhURnQj82lDA=\""
+          "Value": "\"ppuiHkP8p8kEln2M95F8pcMt4wrBVhczPoUZwpc8Bso=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 10:06:44 GMT"
+          "Value": "Wed, 05 Mar 2025 01:41:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17589,13 +17589,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic=\""
+          "Value": "W/\"cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic="
+          "Value": "sha256-cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg="
         }
       ]
     },
@@ -17610,7 +17610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2912"
+          "Value": "6146"
         },
         {
           "Name": "Content-Type",
@@ -17618,11 +17618,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic=\""
+          "Value": "\"cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 10:06:44 GMT"
+          "Value": "Wed, 05 Mar 2025 01:41:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17632,13 +17632,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic="
+          "Value": "sha256-cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg="
         }
       ]
     },
     {
       "Route": "js/facturacion.js.gz",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\9gpk7cwhfg-oy7cr1ejm1.gz",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\9gpk7cwhfg-k72h621hga.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17647,7 +17647,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "962"
+          "Value": "1635"
         },
         {
           "Name": "Content-Type",
@@ -17655,11 +17655,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zDXHZzUx1YqPzlhfOhGUIHxct8/uJiJJhURnQj82lDA=\""
+          "Value": "\"ppuiHkP8p8kEln2M95F8pcMt4wrBVhczPoUZwpc8Bso=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 10:06:44 GMT"
+          "Value": "Wed, 05 Mar 2025 01:41:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17677,18 +17677,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zDXHZzUx1YqPzlhfOhGUIHxct8/uJiJJhURnQj82lDA="
+          "Value": "sha256-ppuiHkP8p8kEln2M95F8pcMt4wrBVhczPoUZwpc8Bso="
         }
       ]
     },
     {
-      "Route": "js/facturacion.oy7cr1ejm1.js",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\9gpk7cwhfg-oy7cr1ejm1.gz",
+      "Route": "js/facturacion.k72h621hga.js",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\9gpk7cwhfg-k72h621hga.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001038421599"
+          "Quality": "0.000611246944"
         }
       ],
       "ResponseHeaders": [
@@ -17698,15 +17698,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "962"
+          "Value": "1635"
         },
         {
           "Name": "ETag",
-          "Value": "\"zDXHZzUx1YqPzlhfOhGUIHxct8/uJiJJhURnQj82lDA=\""
+          "Value": "\"ppuiHkP8p8kEln2M95F8pcMt4wrBVhczPoUZwpc8Bso=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 10:06:44 GMT"
+          "Value": "Wed, 05 Mar 2025 01:41:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17726,13 +17726,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic=\""
+          "Value": "W/\"cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oy7cr1ejm1"
+          "Value": "k72h621hga"
         },
         {
           "Name": "label",
@@ -17740,12 +17740,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic="
+          "Value": "sha256-cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg="
         }
       ]
     },
     {
-      "Route": "js/facturacion.oy7cr1ejm1.js",
+      "Route": "js/facturacion.k72h621hga.js",
       "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\facturacion.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17755,7 +17755,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2912"
+          "Value": "6146"
         },
         {
           "Name": "Content-Type",
@@ -17763,11 +17763,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic=\""
+          "Value": "\"cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 10:06:44 GMT"
+          "Value": "Wed, 05 Mar 2025 01:41:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17777,7 +17777,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oy7cr1ejm1"
+          "Value": "k72h621hga"
         },
         {
           "Name": "label",
@@ -17785,13 +17785,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic="
+          "Value": "sha256-cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg="
         }
       ]
     },
     {
-      "Route": "js/facturacion.oy7cr1ejm1.js.gz",
-      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\9gpk7cwhfg-oy7cr1ejm1.gz",
+      "Route": "js/facturacion.k72h621hga.js.gz",
+      "AssetFile": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\9gpk7cwhfg-k72h621hga.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17800,7 +17800,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "962"
+          "Value": "1635"
         },
         {
           "Name": "Content-Type",
@@ -17808,11 +17808,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zDXHZzUx1YqPzlhfOhGUIHxct8/uJiJJhURnQj82lDA=\""
+          "Value": "\"ppuiHkP8p8kEln2M95F8pcMt4wrBVhczPoUZwpc8Bso=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 10:06:44 GMT"
+          "Value": "Wed, 05 Mar 2025 01:41:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17830,7 +17830,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oy7cr1ejm1"
+          "Value": "k72h621hga"
         },
         {
           "Name": "label",
@@ -17838,7 +17838,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zDXHZzUx1YqPzlhfOhGUIHxct8/uJiJJhURnQj82lDA="
+          "Value": "sha256-ppuiHkP8p8kEln2M95F8pcMt4wrBVhczPoUZwpc8Bso="
         }
       ]
     },

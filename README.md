@@ -20,7 +20,7 @@
 | Rol                  | Email                           | Contraseña              |
 |----------------------|--------------------------------|-------------------------|
 | **Admin**    | `admin@admin.com`             | `Admin1234,`             |
-| **Doctor**          | `doctor@test.com`             | `Doctor1234!`           |
+| **Doctor**          | `adguaman29@gmail.com`             | `Dguaman2025!`           |
 | **Staff**   | `receptionist@test.com`       | `Receptionist1234!`     |
 
 ⚠ **Nota:** Estas cuentas son exclusivamente para pruebas. No las utilices en un entorno de producción.
@@ -34,7 +34,7 @@
 |------------------------|---------------|-------------|--------------------|-----------|------------------|------------------|
 | **Admin**      | CRUD*         | CRUD        | CRUD               | CRUD      | CRUD             | CRUD             |
 | **Patient**           | R (propio)    | -           | -                  | R (propias)| -                | R (propias)      |
-| **Doctor**             | R (pacientes) | R (propio)  | -                  | CRUD (propias)| CRUD (pacientes)| -                |
+| **Doctor**             | R (pacientes) | R (propio)  | -                  | RUD (propias)| CRUD (pacientes)| -                |
 | **Staff**      | CRUD          | R           | R                  | CRUD      | CRUD                | CRUD                |
 
 
@@ -66,7 +66,7 @@ Si se ingresan nuevos pacientes directamente en la base de datos (por ejemplo, m
 
 Para sincronizar estos pacientes, puedes ejecutar el siguiente endpoint:
 
-https://<tu-dominio-o-ip>/Paciente/CrearCuentasParaPacientesExistentes
+https://dominio/Paciente/CrearCuentasParaPacientesExistentes
 
 Este endpoint realizará lo siguiente:
 

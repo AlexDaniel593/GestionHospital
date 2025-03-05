@@ -192,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oy7cr1ejm1</Fingerprint>
-      <Integrity>sA199bIMvHbmKRvelNw8BCBLUQPKz3R8t2KQzwMG3ic=</Integrity>
+      <Fingerprint>k72h621hga</Fingerprint>
+      <Integrity>cINUZLmfgHk1tW/Ddn4IosxeBJ0y2ZoSMaJKD25jgLg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\facturacion.js'))</OriginalItemSpec>

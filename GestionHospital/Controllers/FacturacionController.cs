@@ -10,8 +10,8 @@ namespace GestionHospital.Controllers
     public class FacturacionController : Controller
     {
         private readonly FacturacionBL _facturacionBL;
-       
-    
+
+
         public FacturacionController(FacturacionBL facturacionBL)
         {
             _facturacionBL = facturacionBL;
@@ -24,9 +24,10 @@ namespace GestionHospital.Controllers
         }
 
         [Authorize(Roles = "Admin, Staff")]
-        public List<FacturacionCLS> ListarFacturacion()
+        public List<FacturacionViewCLS> ListarFacturacion()
         {
-            return _facturacionBL.ListarFacturacion();
+            List<FacturacionViewCLS> facturacion = _facturacionBL.ListarFacturacion();
+            return facturacion;
         }
 
         [Authorize(Roles = "Admin, Doctor")]
@@ -39,6 +40,12 @@ namespace GestionHospital.Controllers
         public void EliminarFacturacion(int idFacturacion)
         {
             _facturacionBL.EliminarFacturacion(idFacturacion);
+        }
+
+        [Authorize(Roles = "Admin")]
+        public void GuardarFacturacion(FacturacionCLS facturacion)
+        {
+            _facturacionBL.GuardarFacturacion(facturacion);
         }
     }
 }

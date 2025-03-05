@@ -20,6 +20,8 @@ namespace CapaDatos
         public DbSet<TratamientoViewCLS> TratamientosResultado { get; set; }
         public DbSet<TratamientoMedicoViewCLS> TratamientosMedico { get; set; }
         public DbSet<FacturacionCLS> FACTURACION { get; set; }
+        public DbSet<FacturacionViewCLS> FacturacionResultados { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -28,6 +30,8 @@ namespace CapaDatos
             builder.Entity<CitaViewCLS>().HasNoKey().ToView("CitasResultado");
             builder.Entity<TratamientoViewCLS>().HasNoKey().ToView("TratamientosResultado");
             builder.Entity<TratamientoMedicoViewCLS>().HasNoKey().ToView("TratamientosMedico");
+            builder.Entity<FacturacionViewCLS>().HasNoKey().ToView("FacturacionResultados");
+
         }
 
     }

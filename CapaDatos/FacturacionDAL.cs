@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CapaEntidad;
+﻿using CapaEntidad;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,9 +13,9 @@ namespace CapaDatos
             _context = context;
         }
 
-        public List<FacturacionCLS> ListarFacturacion()
+        public List<FacturacionViewCLS> ListarFacturacion()
         {
-            return _context.FACTURACION.FromSqlRaw("EXEC uspListarFacturacion").ToList();
+            return _context.FacturacionResultados.ToList();
         }
 
         public void GuardarFacturacion(FacturacionCLS facturacion)
@@ -31,7 +26,7 @@ namespace CapaDatos
             var metodoPagoParam = new SqlParameter("@metodoPago", facturacion.metodoPago);
             var fechaPagoParam = new SqlParameter("@fechaPago", facturacion.fechaPago);
 
-            _context.Database.ExecuteSqlRaw("EXEC uspGuardarFacturacion @idFacturacion, @idPaciente, @monto, @metodoPago, @fechaPago, @BHABILITADO",
+            _context.Database.ExecuteSqlRaw("EXEC uspGuardarFacturacion @idFacturacion, @idPaciente, @monto, @metodoPago, @fechaPago",
                 idFacturacionParam, idPacienteParam, montoParam, metodoPagoParam, fechaPagoParam);
         }
 
