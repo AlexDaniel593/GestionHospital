@@ -81,5 +81,26 @@ Este endpoint realizará lo siguiente:
 > Por lo tanto, se recomienda:
 > - Ejecutar este endpoint **solo cuando se hayan agregado pacientes manualmente** a la base de datos.
 
+---
 
+# Instrucciones para Crear un Sistema de Gestión Hospitalaria en ASP.NET Core MVC
+
+### 1. Requisitos Previos
+Antes de comenzar, asegúrate de contar con los siguientes programas y herramientas:
+- Visual Studio 2022 con .NET Core instalado.
+- SQL Server y SQL Server Management Studio (SSMS).
+- Bootstrap o Materialize CSS para el diseño de la interfaz.
+- JavaScript para mejorar la interactividad del sistema.
+
+### 2. Descripción del Proyecto
+El sistema de gestión hospitalaria permitirá administrar pacientes, médicos, citas médicas, tratamientos y facturación. Se implementará utilizando ASP.NET Core MVC y una arquitectura por capas para facilitar la escalabilidad y mantenimiento del proyecto.
+
+### 3. Creación de la Base de Datos
+Se debe diseñar una base de datos relacional en SQL Server que contenga al menos seis tablas, tales como:
+- **Pacientes**: Información personal y médica de los pacientes.
+- **Médicos**: Datos de los médicos registrados en el hospital.
+- **Especialidades**: Listado de especialidades médicas disponibles.
+- **Citas**: Registro de las citas médicas programadas.
+- **Tratamientos**: Información sobre los tratamientos aplicados a los pacientes.
+- **Facturación**: Registro de los pagos y facturas generadas.
 
