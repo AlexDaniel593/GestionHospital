@@ -22,6 +22,7 @@ D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\css\shared.css
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\css\register.css
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\css\home.css
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
@@ -75,11 +76,13 @@ D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\wwwroot
 wwwroot\css\home.css
 wwwroot\css\info.css
 wwwroot\css\login.css
+wwwroot\css\register.css
 wwwroot\css\shared.css
 wwwroot\css\site.css
 wwwroot\css\StyleLayout.css
 wwwroot\favicon.ico
 wwwroot\img\dctor.jpg
+wwwroot\img\login.jpg
 wwwroot\js\cita.js
 wwwroot\js\facturacion.js
 wwwroot\js\generic.js

@@ -3,86 +3,114 @@
     ViewData["Title"] = "Registrar";
 }
 
-<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
-    <div class="card shadow-lg p-4" style="width: 400px; border-radius: 15px;">
+<link href="~/css/register.css" rel="stylesheet" />
+
+<div class="login-container">
+    <div class="login-card">
         <h2 class="text-center text-primary">Registrar</h2>
-        <form asp-action="Register" method="post">
-            <!-- Campo de Email con ícono -->
-            <div class="form-group mt-3">
-                <label asp-for="Email" class="fw-bold">Correo Electrónico</label>
-                <div class="input-group">
-                    <span class="input-group-text" style="border-radius: 10px 0 0 10px;">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                    <input asp-for="Email" class="form-control" style="border-radius: 0 10px 10px 0;" />
-                </div>
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
+       <form asp-action="Register" method="post">
+    <!-- Campo de Email con ícono -->
+    <div class="form-group mt-3">
+        <label asp-for="Email" class="fw-bold">Correo Electrónico</label>
+        <div class="input-group">
+            <span class="input-group-icon">
+                <i class="fas fa-envelope"></i>
+            </span>
+            <input asp-for="Email" class="form-control" />
+        </div>
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
 
-            <!-- Campo de Nombre -->
-            <div class="form-group mt-3">
-                <label asp-for="Nombre" class="fw-bold">Nombre</label>
+    <!-- Fila para Nombre y Apellido con iconos -->
+    <div class="form-row mt-3">
+        <div class="col-6">
+            <label asp-for="Nombre" class="fw-bold">Nombre</label>
+            <div class="input-group">
+                <span class="input-group-icon">
+                    <i class="fas fa-user"></i>
+                </span>
                 <input asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
-
-            <!-- Campo de Apellido -->
-            <div class="form-group mt-3">
-                <label asp-for="Apellido" class="fw-bold">Apellido</label>
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+        <div class="col-6">
+            <label asp-for="Apellido" class="fw-bold">Apellido</label>
+            <div class="input-group">
+                <span class="input-group-icon">
+                    <i class="fas fa-user-tag"></i>
+                </span>
                 <input asp-for="Apellido" class="form-control" />
-                <span asp-validation-for="Apellido" class="text-danger"></span>
             </div>
+            <span asp-validation-for="Apellido" class="text-danger"></span>
+        </div>
+    </div>
 
-            <!-- Campo de Fecha de Nacimiento -->
-            <div class="form-group mt-3">
-                <label asp-for="FechaNacimiento" class="fw-bold">Fecha de Nacimiento</label>
-                <input asp-for="FechaNacimiento" class="form-control" type="date" />
-                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
-            </div>
+    <!-- Campo de Fecha de Nacimiento con ícono -->
+    <div class="form-group mt-3">
+        <label asp-for="FechaNacimiento" class="fw-bold">Fecha de Nacimiento</label>
+        <div class="input-group">
+            <span class="input-group-icon">
+                <i class="fas fa-calendar-alt"></i>
+            </span>
+            <input asp-for="FechaNacimiento" class="form-control" type="date" />
+        </div>
+        <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+    </div>
 
-            <!-- Campo de Teléfono -->
-            <div class="form-group mt-3">
-                <label asp-for="Telefono" class="fw-bold">Teléfono</label>
+    <!-- Fila para Teléfono y Dirección con iconos -->
+    <div class="form-row mt-3">
+        <div class="col-6">
+            <label asp-for="Telefono" class="fw-bold">Teléfono</label>
+            <div class="input-group">
+                <span class="input-group-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </span>
                 <input asp-for="Telefono" class="form-control" />
-                <span asp-validation-for="Telefono" class="text-danger"></span>
             </div>
-
-            <!-- Campo de Dirección -->
-            <div class="form-group mt-3">
-                <label asp-for="Direccion" class="fw-bold">Dirección</label>
+            <span asp-validation-for="Telefono" class="text-danger"></span>
+        </div>
+        <div class="col-6">
+            <label asp-for="Direccion" class="fw-bold">Dirección</label>
+            <div class="input-group">
+                <span class="input-group-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </span>
                 <input asp-for="Direccion" class="form-control" />
-                <span asp-validation-for="Direccion" class="text-danger"></span>
             </div>
+            <span asp-validation-for="Direccion" class="text-danger"></span>
+        </div>
+    </div>
 
-            <!-- Campo de Password con ícono -->
-            <div class="form-group mt-3">
-                <label asp-for="Password" class="fw-bold">Contraseña</label>
-                <div class="input-group">
-                    <span class="input-group-text" style="border-radius: 10px 0 0 10px;">
-                        <i class="fas fa-lock"></i>
-                    </span>
-                    <input asp-for="Password" id="Password" class="form-control" type="password" style="border-radius: 0 10px 10px 0;" />
-                </div>
-                <span asp-validation-for="Password" class="text-danger"></span>
+    <!-- Fila para Contraseña y Confirmar Contraseña con iconos -->
+    <div class="form-row mt-3">
+        <div class="col-6">
+            <label asp-for="Password" class="fw-bold">Contraseña</label>
+            <div class="input-group">
+                <span class="input-group-icon">
+                    <i class="fas fa-lock"></i>
+                </span>
+                <input asp-for="Password" id="Password" class="form-control" type="password" />
             </div>
-
-            <!-- Campo de Confirmar Password con ícono -->
-            <div class="form-group mt-3">
-                <label asp-for="ConfirmPassword" class="fw-bold">Confirmar Contraseña</label>
-                <div class="input-group">
-                    <span class="input-group-text" style="border-radius: 10px 0 0 10px;">
-                        <i class="fas fa-lock"></i>
-                    </span>
-                    <input asp-for="ConfirmPassword" class="form-control" type="password" style="border-radius: 0 10px 10px 0;" />
-                </div>
-                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div class="col-6">
+            <label asp-for="ConfirmPassword" class="fw-bold">Confirmar Contraseña</label>
+            <div class="input-group">
+                <span class="input-group-icon">
+                    <i class="fas fa-lock"></i>
+                </span>
+                <input asp-for="ConfirmPassword" class="form-control" type="password" />
             </div>
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        </div>
+    </div>
 
-            <!-- Botón de Registrar -->
-            <button type="submit" onclick="validarFormulario()" class="btn btn-primary w-100 mt-4" style="border-radius: 10px;">
-                <i class="fas fa-user-plus"></i> Registrar
-            </button>
-        </form>
+    <!-- Botón de Registrar -->
+    <button type="submit" class="btn btn-primary w-100 mt-4">
+        <i class="fas fa-user-plus"></i> Registrar
+    </button>
+</form>
+
     </div>
 </div>
 
