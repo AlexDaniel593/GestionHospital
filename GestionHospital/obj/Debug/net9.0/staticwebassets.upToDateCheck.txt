@@ -34,6 +34,7 @@ C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstra
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\js\register.js
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\wwwroot\lib\jquery\LICENSE.txt
@@ -84,6 +85,7 @@ wwwroot\js\facturacion.js
 wwwroot\js\generic.js
 wwwroot\js\medico.js
 wwwroot\js\paciente.js
+wwwroot\js\register.js
 wwwroot\js\site.js
 wwwroot\js\tratamiento.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

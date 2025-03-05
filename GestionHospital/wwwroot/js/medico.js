@@ -1,5 +1,12 @@
 ﻿window.onload = function () {
-    ListarMedico();
+    const roles = userRoles.split(',');
+    const hasAccess = roles.includes('Admin') || roles.includes('Staff');
+
+    if (hasAccess) {
+        ListarMedico();
+    } else {
+        PintarDatosMedico();
+    }
 }
 
 let objMedico;
@@ -22,6 +29,19 @@ async function ListarMedico() {
     }
 
     pintar(objMedico);
+}
+
+function PintarDatosMedico() {
+    fetchGet("Medico/ObtenerIdMedicoActual", "json", function (id) {
+        fetchGet("Medico/RecuperarMedico/?idMedico=" + id, "json", function (data) {
+            if (data) {
+                document.getElementById("nombre").textContent = data.nombre || "No disponible";
+                document.getElementById("apellido").textContent = data.apellido || "No disponible";
+                document.getElementById("telefono").textContent = data.telefono || "No disponible";
+                document.getElementById("email").textContent = data.email || "No disponible";
+            }
+        });
+    });
 }
 
 function LimpiarMedico() {

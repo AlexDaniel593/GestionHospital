@@ -189,6 +189,17 @@ function Exito(titulo = "Operacion realizado con Exito") {
     Swal.fire({
         title: titulo ,
         icon: "success",
+        showConfirmButton: false,
+        timer: 1500
+    });
+}
+
+function Fallo(titulo = "Ha ocurrido un problema con la Operacion",
+                mensaje = "Por favor, inténtelo de nuevo más tarde.") {
+    Swal.fire({
+        title: titulo,
+        text: mensaje,
+        icon: "error",
         draggable: true
     });
 }

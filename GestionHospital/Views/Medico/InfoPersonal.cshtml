@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Informacion Personal Doctor";
+    var userRoles = string.Join(",", User.Claims.Where(c => c.Type == System.Security.Claims.ClaimTypes.Role).Select(c => c.Value));
+}
+
+<div class="container mt-5" id="divInfoMedico">
+    <h3>Detalles del Doctor</h3>
+    <div class="row">
+        <!-- Aquí irán los detalles -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <p><strong>Nombre:</strong> <span id="nombre">Cargando...</span></p>
+                    <p><strong>Apellido:</strong> <span id="apellido">Cargando...</span></p>
+                    <p><strong>Teléfono:</strong> <span id="telefono">Cargando...</span></p>
+                    <p><strong>Email:</strong> <span id="email">Cargando...</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var userRoles = "@userRoles";
+</script>
+<script src="~/js/generic.js"></script>
+<script src="~/js/medico.js"></script>

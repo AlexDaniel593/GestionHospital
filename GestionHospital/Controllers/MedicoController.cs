@@ -16,19 +16,24 @@ namespace GestionHospital.Controllers
             _medicoBL = medicoBL;
         }
 
-        [Authorize(Roles = "Admin, Staff")]
+        [Authorize(Roles = "Admin, Staff, Doctor")]
         public IActionResult Index()
         {
             return View();
         }
 
-        [Authorize(Roles = "Admin, Staff, Doctor")]
+        [Authorize(Roles = "Admin, Staff")]
         public List<MedicoCLS> ListarMedico()
         {
             return _medicoBL.ListarMedico();
 
         }
 
+        [Authorize(Roles = "Admin, Doctor")]
+        public IActionResult InfoPersonal()
+        {
+            return View();
+        }
 
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GuardarMedico(MedicoCLS medico)

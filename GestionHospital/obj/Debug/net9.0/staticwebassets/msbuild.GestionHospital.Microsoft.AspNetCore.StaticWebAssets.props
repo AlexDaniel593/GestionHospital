@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m3g5iflnuy</Fingerprint>
-      <Integrity>wt7aNoE4I+1BA8hefnxMFYReaMJpNyfEIkq46wnUm0M=</Integrity>
+      <Fingerprint>v01llw8sd3</Fingerprint>
+      <Integrity>kdLROU4UvHO4GIXdfLvC3I3yCVADD6KqwEkByzl9fTc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\generic.js'))</OriginalItemSpec>
@@ -228,8 +228,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i5bhocfci9</Fingerprint>
-      <Integrity>tgrG1TqvwF8IlnktTsL+x+kwP98jBKj07avfj3j1MIA=</Integrity>
+      <Fingerprint>ya3vbkhwew</Fingerprint>
+      <Integrity>eu068r4eISFkUToM4WVAJ0ZC4dKg40UQSIxCuXSj7Fg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\medico.js'))</OriginalItemSpec>
@@ -246,11 +246,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0a0kz8mcj5</Fingerprint>
-      <Integrity>aMFxMk5yCHNfbQisZgwHrgzgcGdWaN23yCNcaH5dS+k=</Integrity>
+      <Fingerprint>vxkrd3qvsw</Fingerprint>
+      <Integrity>wxt+QQV+mAps/PV34brTxLB9mnBwEBqkrepBM2YGCL8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\paciente.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\register.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>GestionHospital</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GestionHospital</BasePath>
+      <RelativePath>js/register.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ok4lu7yjz5</Fingerprint>
+      <Integrity>mLvvArwD0ciciN9MIHAv/qaoPC4UFbb6G6Nd7WLQI4M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\register.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

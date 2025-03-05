@@ -5,7 +5,6 @@
     if (hasAccess) {
         ListarPaciente();
     } else {
-        // Si no tienes acceso, mostramos la información de paciente
         PintarDatosPaciente();
     }
 }

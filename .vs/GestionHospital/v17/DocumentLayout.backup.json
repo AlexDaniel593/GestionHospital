@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\wwwroot\\js\\generic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\wwwroot\\js\\generic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\wwwroot\\js\\medico.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\wwwroot\\js\\medico.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\capadatos\\pacientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\pacientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\wwwroot\\js\\paciente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\wwwroot\\js\\paciente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\controllers\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\controllers\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\views\\medico\\infopersonal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\medico\\infopersonal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\capadatos\\tratamientodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\tratamientodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\capadatos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9236BDBE-1D79-4953-BCD1-24A4A4DA9ADC}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\views\\home\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\home\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|c:\\users\\dalex\\source\\repos\\gestionhospital\\gestionhospital\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,45 +99,226 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "GestionHospital\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "GestionHospital\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T21:22:03.963Z",
+              "Title": "register.js",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\register.js",
+              "RelativeDocumentMoniker": "GestionHospital\\wwwroot\\js\\register.js",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\register.js",
+              "RelativeToolTip": "GestionHospital\\wwwroot\\js\\register.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-04T23:21:20.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Program.cs",
+              "RelativeDocumentMoniker": "GestionHospital\\Program.cs",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Program.cs",
+              "RelativeToolTip": "GestionHospital\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:19:57.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "generic.js",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\generic.js",
+              "RelativeDocumentMoniker": "GestionHospital\\wwwroot\\js\\generic.js",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\generic.js",
+              "RelativeToolTip": "GestionHospital\\wwwroot\\js\\generic.js",
+              "ViewState": "AgIAALcAAAAAAAAAAAAgwMoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-04T23:10:08.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "paciente.js",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\paciente.js",
+              "RelativeDocumentMoniker": "GestionHospital\\wwwroot\\js\\paciente.js",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\paciente.js",
+              "RelativeToolTip": "GestionHospital\\wwwroot\\js\\paciente.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-04T22:01:30.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "GestionHospital\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "GestionHospital\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAADwv1QAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T22:27:09.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "GestionHospital\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "GestionHospital\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswFYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:23:45.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PacienteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\PacienteDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\PacienteDAL.cs",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\PacienteDAL.cs",
+              "RelativeToolTip": "CapaDatos\\PacienteDAL.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAjwB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:07:15.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "medico.js",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\medico.js",
+              "RelativeDocumentMoniker": "GestionHospital\\wwwroot\\js\\medico.js",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\wwwroot\\js\\medico.js",
+              "RelativeToolTip": "GestionHospital\\wwwroot\\js\\medico.js",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwE8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-04T22:01:42.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "GestionHospital\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "GestionHospital\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T21:42:50.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\appsettings.json",
+              "RelativeDocumentMoniker": "GestionHospital\\appsettings.json",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\appsettings.json",
+              "RelativeToolTip": "GestionHospital\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T22:12:27.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PacienteController.cs",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Controllers\\PacienteController.cs",
+              "RelativeDocumentMoniker": "GestionHospital\\Controllers\\PacienteController.cs",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Controllers\\PacienteController.cs",
+              "RelativeToolTip": "GestionHospital\\Controllers\\PacienteController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T21:58:01.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GestionHospital\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "GestionHospital\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAG8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv04AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T21:17:52.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\appsettings.json",
-              "RelativeDocumentMoniker": "GestionHospital\\appsettings.json",
-              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\appsettings.json",
-              "RelativeToolTip": "GestionHospital\\appsettings.json",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T21:15:57.912Z",
+              "DocumentIndex": 13,
+              "Title": "InfoPersonal.cshtml",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
+              "RelativeDocumentMoniker": "GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
+              "RelativeToolTip": "GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T21:59:53.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CapaDatos\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:03:57.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TratamientoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\TratamientoDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\TratamientoDAL.cs",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaDatos\\TratamientoDAL.cs",
+              "RelativeToolTip": "CapaDatos\\TratamientoDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:04:51.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MedicoController.cs",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Controllers\\MedicoController.cs",
+              "RelativeDocumentMoniker": "GestionHospital\\Controllers\\MedicoController.cs",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Controllers\\MedicoController.cs",
+              "RelativeToolTip": "GestionHospital\\Controllers\\MedicoController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T21:54:39.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionHospital\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GestionHospital\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T21:22:03.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Info.cshtml",
               "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Views\\Home\\Info.cshtml",
               "RelativeDocumentMoniker": "GestionHospital\\Views\\Home\\Info.cshtml",
@@ -89,12 +326,11 @@
               "RelativeToolTip": "GestionHospital\\Views\\Home\\Info.cshtml",
               "ViewState": "AgIAADEAAAAAAAAAAAAiwE4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T21:15:30.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T21:15:30.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\GestionHospital\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "GestionHospital\\Controllers\\HomeController.cs",

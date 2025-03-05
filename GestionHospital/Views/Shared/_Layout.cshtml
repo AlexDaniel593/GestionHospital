@@ -63,11 +63,20 @@
                 </li>
             }
 
-            @if (User.IsInRole("Admin") || User.IsInRole("Staff") || User.IsInRole("Doctor"))
+            @if (User.IsInRole("Admin") || User.IsInRole("Staff"))
             {
                 <li class="nav-item">
                     <a class="nav-link" asp-area="" asp-controller="Medico" asp-action="Index">
                         <i class="fa fa-medkit"></i> Médicos
+                    </a>
+                </li>
+            }
+
+            @if (User.IsInRole("Doctor"))
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Medico" asp-action="InfoPersonal">
+                        <i class="fa-solid fa-user"></i> Mi informacion
                     </a>
                 </li>
             }
