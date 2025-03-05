@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gi/emHXnWqnvXwo+I4KlsA1pFq/SRnb2PFULPmo8Ddk=",
+  "Hash": "PcvdUo/cZuXRVwALRzCcZWqQOOrC4yna7B8G2azcJng=",
   "Source": "GestionHospital",
   "BasePath": "_content/GestionHospital",
   "Mode": "Default",
@@ -2222,12 +2222,12 @@
       "OriginalItemSpec": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\shared.css"
     },
     {
-      "Identity": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\cbj4oxrkzp-iq439t3jxn.gz",
+      "Identity": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\cbj4oxrkzp-go9xsolj3z.gz",
       "SourceId": "GestionHospital",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/GestionHospital",
-      "RelativePath": "css/register#[.{fingerprint=iq439t3jxn}]?.css.gz",
+      "RelativePath": "css/register#[.{fingerprint=go9xsolj3z}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2236,8 +2236,8 @@
       "RelatedAsset": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\register.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "014h6rergt",
-      "Integrity": "XB/jSM0S5Ye951kX6J7UZYlvTm+ptqj25qtLqsAY4DY=",
+      "Fingerprint": "ul7b5ch4l3",
+      "Integrity": "QuChErzZmlw76vBMMHg3DolLZA745VgZGy6bSY5e/IA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\register.css"
@@ -4378,8 +4378,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "iq439t3jxn",
-      "Integrity": "umf2txZGSO8rt/bvIdbSRiItHumrBy2mAPi+6YTxgYI=",
+      "Fingerprint": "go9xsolj3z",
+      "Integrity": "QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\register.css"
@@ -6836,12 +6836,12 @@
     },
     {
       "Route": "css/register.css",
-      "AssetFile": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\cbj4oxrkzp-iq439t3jxn.gz",
+      "AssetFile": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\cbj4oxrkzp-go9xsolj3z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001221001221"
+          "Quality": "0.001222493888"
         }
       ],
       "ResponseHeaders": [
@@ -6851,15 +6851,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "818"
+          "Value": "817"
         },
         {
           "Name": "ETag",
-          "Value": "\"XB/jSM0S5Ye951kX6J7UZYlvTm+ptqj25qtLqsAY4DY=\""
+          "Value": "\"QuChErzZmlw76vBMMHg3DolLZA745VgZGy6bSY5e/IA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:34:22 GMT"
+          "Value": "Wed, 05 Mar 2025 03:37:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6879,13 +6879,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"umf2txZGSO8rt/bvIdbSRiItHumrBy2mAPi+6YTxgYI=\""
+          "Value": "W/\"QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-umf2txZGSO8rt/bvIdbSRiItHumrBy2mAPi+6YTxgYI="
+          "Value": "sha256-QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c="
         }
       ]
     },
@@ -6908,11 +6908,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"umf2txZGSO8rt/bvIdbSRiItHumrBy2mAPi+6YTxgYI=\""
+          "Value": "\"QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:34:22 GMT"
+          "Value": "Wed, 05 Mar 2025 03:37:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6922,13 +6922,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-umf2txZGSO8rt/bvIdbSRiItHumrBy2mAPi+6YTxgYI="
+          "Value": "sha256-QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c="
         }
       ]
     },
     {
       "Route": "css/register.css.gz",
-      "AssetFile": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\cbj4oxrkzp-iq439t3jxn.gz",
+      "AssetFile": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\cbj4oxrkzp-go9xsolj3z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6937,7 +6937,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "818"
+          "Value": "817"
         },
         {
           "Name": "Content-Type",
@@ -6945,11 +6945,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XB/jSM0S5Ye951kX6J7UZYlvTm+ptqj25qtLqsAY4DY=\""
+          "Value": "\"QuChErzZmlw76vBMMHg3DolLZA745VgZGy6bSY5e/IA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:34:22 GMT"
+          "Value": "Wed, 05 Mar 2025 03:37:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6967,18 +6967,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XB/jSM0S5Ye951kX6J7UZYlvTm+ptqj25qtLqsAY4DY="
+          "Value": "sha256-QuChErzZmlw76vBMMHg3DolLZA745VgZGy6bSY5e/IA="
         }
       ]
     },
     {
-      "Route": "css/register.iq439t3jxn.css",
-      "AssetFile": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\cbj4oxrkzp-iq439t3jxn.gz",
+      "Route": "css/register.go9xsolj3z.css",
+      "AssetFile": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\cbj4oxrkzp-go9xsolj3z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001221001221"
+          "Quality": "0.001222493888"
         }
       ],
       "ResponseHeaders": [
@@ -6988,15 +6988,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "818"
+          "Value": "817"
         },
         {
           "Name": "ETag",
-          "Value": "\"XB/jSM0S5Ye951kX6J7UZYlvTm+ptqj25qtLqsAY4DY=\""
+          "Value": "\"QuChErzZmlw76vBMMHg3DolLZA745VgZGy6bSY5e/IA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:34:22 GMT"
+          "Value": "Wed, 05 Mar 2025 03:37:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7016,13 +7016,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"umf2txZGSO8rt/bvIdbSRiItHumrBy2mAPi+6YTxgYI=\""
+          "Value": "W/\"QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iq439t3jxn"
+          "Value": "go9xsolj3z"
         },
         {
           "Name": "label",
@@ -7030,12 +7030,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-umf2txZGSO8rt/bvIdbSRiItHumrBy2mAPi+6YTxgYI="
+          "Value": "sha256-QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c="
         }
       ]
     },
     {
-      "Route": "css/register.iq439t3jxn.css",
+      "Route": "css/register.go9xsolj3z.css",
       "AssetFile": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\register.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7053,11 +7053,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"umf2txZGSO8rt/bvIdbSRiItHumrBy2mAPi+6YTxgYI=\""
+          "Value": "\"QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:34:22 GMT"
+          "Value": "Wed, 05 Mar 2025 03:37:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7067,7 +7067,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iq439t3jxn"
+          "Value": "go9xsolj3z"
         },
         {
           "Name": "label",
@@ -7075,13 +7075,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-umf2txZGSO8rt/bvIdbSRiItHumrBy2mAPi+6YTxgYI="
+          "Value": "sha256-QLtuYqtYPsxeIspZ78NMTQp95MHeeKKlbJAMIqPbU7c="
         }
       ]
     },
     {
-      "Route": "css/register.iq439t3jxn.css.gz",
-      "AssetFile": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\cbj4oxrkzp-iq439t3jxn.gz",
+      "Route": "css/register.go9xsolj3z.css.gz",
+      "AssetFile": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\obj\\Debug\\net9.0\\compressed\\cbj4oxrkzp-go9xsolj3z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7090,7 +7090,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "818"
+          "Value": "817"
         },
         {
           "Name": "Content-Type",
@@ -7098,11 +7098,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XB/jSM0S5Ye951kX6J7UZYlvTm+ptqj25qtLqsAY4DY=\""
+          "Value": "\"QuChErzZmlw76vBMMHg3DolLZA745VgZGy6bSY5e/IA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:34:22 GMT"
+          "Value": "Wed, 05 Mar 2025 03:37:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7120,7 +7120,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iq439t3jxn"
+          "Value": "go9xsolj3z"
         },
         {
           "Name": "label",
@@ -7128,7 +7128,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XB/jSM0S5Ye951kX6J7UZYlvTm+ptqj25qtLqsAY4DY="
+          "Value": "sha256-QuChErzZmlw76vBMMHg3DolLZA745VgZGy6bSY5e/IA="
         }
       ]
     },

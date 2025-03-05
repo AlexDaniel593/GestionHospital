@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\gestionhospital\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\gestionhospital\\views\\medico\\infopersonal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\medico\\infopersonal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\gestionhospital\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|d:\\espe\\cuarto semestre\\programacion web\\gestionhospital\\gestionhospital\\views\\paciente\\infopersonal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{933D82D1-6FA9-4E31-B866-1DC9AEB6B880}|GestionHospital\\GestionHospital.csproj|solutionrelative:gestionhospital\\views\\paciente\\infopersonal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "register.css",
-              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\register.css",
-              "RelativeDocumentMoniker": "GestionHospital\\wwwroot\\css\\register.css",
-              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\wwwroot\\css\\register.css",
-              "RelativeToolTip": "GestionHospital\\wwwroot\\css\\register.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-05T03:33:42.886Z",
+              "Title": "InfoPersonal.cshtml",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
+              "RelativeDocumentMoniker": "GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
+              "RelativeToolTip": "GestionHospital\\Views\\Medico\\InfoPersonal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T03:57:13.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "GestionHospital\\Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "GestionHospital\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAUwHAAAAAAAAAAAAAAAA==",
+              "Title": "InfoPersonal.cshtml",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Paciente\\InfoPersonal.cshtml",
+              "RelativeDocumentMoniker": "GestionHospital\\Views\\Paciente\\InfoPersonal.cshtml",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\GestionHospital\\GestionHospital\\Views\\Paciente\\InfoPersonal.cshtml",
+              "RelativeToolTip": "GestionHospital\\Views\\Paciente\\InfoPersonal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T03:32:38.474Z",
+              "WhenOpened": "2025-03-05T03:41:51.203Z",
               "EditorCaption": ""
             }
           ]
