@@ -47,11 +47,11 @@ namespace GestionHospital.Controllers
         }
 
         [Authorize(Roles = "Admin,Staff")]
-        public async Task<IActionResult> GuardarPaciente(PacienteCLS paciente)
+        public async Task<string> GuardarPaciente(PacienteCLS paciente)
         {
             await _pacienteBL.GuardarPaciente(paciente);
-
-            return RedirectToAction("Index");
+            string password = AccountBL.GenerarContrasena(paciente.nombre, paciente.apellido, paciente.fechaNacimiento);
+            return password;
         }
 
         [Authorize(Roles = "Admin,Staff,Doctor,Patient")]

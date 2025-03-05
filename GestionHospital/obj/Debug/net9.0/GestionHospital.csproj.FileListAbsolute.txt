@@ -636,8 +636,8 @@ D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Deb
 D:\ESPE\CUARTO SEMESTRE\Programacion Web\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\41yw2cwyqq-vdwsud5gqw.gz
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\ksv0e2aswp-nit6wg63y8.gz
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\41yw2cwyqq-vdwsud5gqw.gz
-C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\lph9dque12-ya3vbkhwew.gz
-C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\62tlvmph1h-vxkrd3qvsw.gz
-C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\92728zs8kr-v01llw8sd3.gz
 C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\iuqvm1mr8t-ok4lu7yjz5.gz
-C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\9gpk7cwhfg-k72h621hga.gz
+C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\9gpk7cwhfg-qh8hdchfug.gz
+C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\lph9dque12-9bkwcvk7si.gz
+C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\62tlvmph1h-1bmeodnnq4.gz
+C:\Users\dalex\source\repos\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\92728zs8kr-nmwbx2rro6.gz

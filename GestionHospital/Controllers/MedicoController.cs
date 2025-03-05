@@ -36,10 +36,11 @@ namespace GestionHospital.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> GuardarMedico(MedicoCLS medico)
+        public async Task<string> GuardarMedico(MedicoCLS medico)
         {
             await _medicoBL.GuardarMedico(medico);
-            return RedirectToAction("Index"); 
+            string password = AccountBL.GenerarContrasena(medico.nombre, medico.apellido, DateTime.Now);
+            return password; 
 
         }
 

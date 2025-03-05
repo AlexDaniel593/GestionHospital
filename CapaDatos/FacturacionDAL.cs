@@ -18,6 +18,11 @@ namespace CapaDatos
             return _context.FacturacionResultados.ToList();
         }
 
+        public List<FacturacionCLS> ListarFacturacionPaciente(int idPaciente)
+        {
+            return _context.FACTURACION.Where(c => c.idPaciente == idPaciente).ToList();
+        }
+
         public void GuardarFacturacion(FacturacionCLS facturacion)
         {
             var idFacturacionParam = new SqlParameter("@idFacturacion", facturacion.idFacturacion);

@@ -18,6 +18,11 @@ namespace CapaNegocio
             return _facturacionDAL.ListarFacturacion();
         }
 
+        public List<FacturacionCLS> ListarFacturacionPaciente(int idPaciente)
+        {
+            return _facturacionDAL.ListarFacturacionPaciente(idPaciente);
+        }
+
         public FacturacionCLS? RecuperarFacturacion(int idFacturacion)
         {
             FacturacionCLS? factura = _facturacionDAL.RecuperarFacturacion(idFacturacion);

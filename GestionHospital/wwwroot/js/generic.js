@@ -202,4 +202,43 @@ function Fallo(titulo = "Ha ocurrido un problema con la Operacion",
         icon: "error",
         draggable: true
     });
+    setTimeout(() => {
+        swalInstance.close();
+    }, 5000);
+}
+
+function AlertaCopiar(textoACopiar = "Copiado al portapapeles.",
+    _title = "Asegurate de Guardar tu informacion",
+    _text= "Puedes copiar el texto o simplemente cerrar esta ventana.") {
+
+    Swal.fire({
+        title: _title,
+        text: _text,
+        icon: "info",
+        showCancelButton: true, // Mostrar botón de cancelar (Copiar)
+        confirmButtonText: "OK", // Texto del botón de confirmación
+        cancelButtonText: "Copiar", // Texto del botón de cancelación (Copiar)
+        reverseButtons: true, // Invertir el orden de los botones (Copiar a la izquierda)
+    }).then((result) => {
+        if (result.dismiss === Swal.DismissReason.cancel) {
+            // Si el usuario hace clic en "Copiar"
+            navigator.clipboard.writeText(textoACopiar) // Copiar al portapapeles
+                .then(() => {
+                    Swal.fire({
+                        title: "¡Copiado!",
+                        text: "Informacion en el portapapeles.",
+                        icon: "success",
+                        timer: 1500, // Cerrar automáticamente después de 1.5 segundos
+                        showConfirmButton: false, // No mostrar el botón "OK"
+                    });
+                })
+                .catch(() => {
+                    Swal.fire({
+                        title: "Error",
+                        text: "No se pudo copiar el texto al portapapeles.",
+                        icon: "error",
+                    });
+                });
+        }
+    });
 }

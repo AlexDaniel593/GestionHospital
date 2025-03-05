@@ -101,8 +101,10 @@ function GuardarPaciente() {
     let form = document.getElementById("frmPaciente");
     let frm = new FormData(form);
     fetchPost("Paciente/GuardarPaciente", "text", frm, function (res) {
-        // Perform other operations first
         Exito("Registro Guardado con Exito");
+        let email = document.getElementById("email").value;
+        let mensaje = "Usuario: " + email + " Contraseña: " + res;
+        AlertaCopiar(mensaje, undefined, mensaje);
         ListarPaciente();
 
         var myModal = bootstrap.Modal.getInstance(document.getElementById('modalPaciente'));

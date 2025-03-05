@@ -22,8 +22,9 @@
 | **Admin**    | `admin@admin.com`             | `Admin1234,`             |
 | **Doctor**          | `adguaman29@gmail.com`             | `Dguaman2025!`           |
 | **Staff**   | `receptionist@test.com`       | `Receptionist1234!`     |
+| **Patient**   | `sdlasso@gmail.com`       | `Slasso2003!`     |
 
-⚠ **Nota:** Estas cuentas son exclusivamente para pruebas. No las utilices en un entorno de producción.
+
 
 
 ## Seguridad en la autenticación y autorización dentro del sistema.

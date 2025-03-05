@@ -78,6 +78,9 @@ function GuardarMedico() {
     fetchPost("Medico/GuardarMedico", "text", frm, function (res) {
         // Perform other operations first
         Exito("Registro Guardado con Exito");
+        let email = document.getElementById("email").value;
+        let mensaje = "Usuario: " + email + " Contraseña: " + res;
+        AlertaCopiar(mensaje, undefined, mensaje);
         ListarMedico();
 
         var myModal = bootstrap.Modal.getInstance(document.getElementById('modalMedico'));

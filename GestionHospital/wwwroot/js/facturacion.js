@@ -1,14 +1,21 @@
 ﻿window.onload = function () {
+    const roles = userRoles.split(',');
+    const hasAccess = roles.includes('Admin') || roles.includes('Staff');
+    if (hasAccess) {
+        ListarPacientes();
+    }
+
     ListarFacturacion();
-    ListarPacientes();
+
 }
 
 let objFacturacion;
 
 async function ListarFacturacion() {
     const roles = userRoles.split(',');
+    const hasAccess = roles.includes('Admin') || roles.includes('Staff');
 
-    if (!roles.includes('Admin')) {
+    if (!hasAccess) {
         let btnNuevo = document.getElementById("btnNuevoFacturacion");
         btnNuevo.style.display = "none";
     }
@@ -17,9 +24,15 @@ async function ListarFacturacion() {
         url: "Facturacion/ListarFacturacion",
         cabeceras: ["Id Facturacion", "Nombre", "Monto", "Metodo de Pago", "Fecha de Pago"],
         propiedades: ["idFacturacion", "nombreCompletoPaciente", "monto", "metodoPago", "fechaPago"],
-        editar: roles.includes('Admin'),
-        eliminar: roles.includes('Admin'),
+        editar: hasAccess,
+        eliminar: hasAccess,
         propiedadID: "idFacturacion"
+    }
+
+    if (roles.includes('Patient')) {
+        objFacturacion.url = "Facturacion/ListarFacturacionPaciente";
+        objFacturacion.cabeceras = ["Id Facturacion", "Monto", "Metodo de Pago", "Fecha de Pago"];
+        objFacturacion.propiedades = ["idFacturacion", "monto", "metodoPago", "fechaPago"];
     }
 
     pintar(objFacturacion);
