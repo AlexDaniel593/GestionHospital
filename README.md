@@ -8,6 +8,12 @@
 
 🚀 Desarrollo de una plataforma web para la gestión hospitalaria, incluyendo administración de usuarios, asignación de roles y manejo de citas médicas.  
 
+## Objetivos del Proyecto
+
+- Desarrollar una plataforma web para la gestión de pacientes, médicos y citas médicas.
+- Implementar una interfaz de usuario moderna y responsiva utilizando Bootstrap.
+- Proporcionar un sistema seguro con autenticación y autorización basada en roles.
+- Desplegar el sistema en la nube utilizando un servicio gratuito de hosting como Somee.com.
 
 > [!IMPORTANT]
 > # Cuentas de Prueba
@@ -49,6 +55,11 @@
 - **(pacientes)**: Acceso solo a la información de los pacientes asociados.
 - **(propias)**: Acceso solo a sus propias citas o facturas.
 
+- **Pacientes**: Registro, actualización y consulta de pacientes.
+- **Médicos**: Administración de la información de los médicos.
+- **Citas**: Programación y gestión de citas médicas.
+- **Tratamientos**: Información sobre tratamientos aplicados a pacientes.
+- **Facturación**: Generación de facturas y consultas sobre pagos realizados.
 
 ## Gestión de Pacientes
 
@@ -83,50 +94,36 @@ Este endpoint realizará lo siguiente:
 
 ---
 
-# Proyecto de Gestión Hospitalaria en ASP.NET Core MVC
 
-## Introducción
+## Creación de la Base de Datos
 
-Aqui se describe el desarrollo de un sistema web de gestión hospitalaria diseñado para administrar la información de pacientes, médicos, especialidades médicas, citas, tratamientos y facturación. La implementación está basada en ASP.NET Core MVC, lo que proporciona una arquitectura robusta y escalable para facilitar la administración y mantenimiento del sistema.
+El sistema se apoya en una base de datos relacional en SQL Server, que incluye las siguientes tablas para la gestión hospitalaria y autenticación de usuarios utilizando **ASP.NET Core Identity**:
 
-## Objetivos del Proyecto
-
-- Desarrollar una plataforma web para la gestión de pacientes, médicos y citas médicas.
-- Implementar una interfaz de usuario moderna y responsiva utilizando Bootstrap.
-- Proporcionar un sistema seguro con autenticación y autorización basada en roles.
-- Desplegar el sistema en la nube utilizando un servicio gratuito de hosting como Somee.com.
-
-## 1. Requisitos Previos
-
-Antes de comenzar con la implementación del sistema, es necesario contar con las siguientes herramientas y programas:
-
-- Visual Studio 2022 con soporte para .NET Core.
-- SQL Server y SQL Server Management Studio (SSMS).
-- Bootstrap o Materialize CSS para la creación de una interfaz moderna y responsiva.
-- JavaScript para la mejora de la interactividad del sistema.
-
-## 2. Descripción del Proyecto
-
-El sistema permitirá gestionar los siguientes módulos:
-
-- **Pacientes**: Registro, actualización y consulta de pacientes.
-- **Médicos**: Administración de la información de los médicos.
-- **Especialidades**: Gestión de especialidades médicas disponibles.
-- **Citas**: Programación y gestión de citas médicas.
-- **Tratamientos**: Información sobre tratamientos aplicados a pacientes.
-- **Facturación**: Generación de facturas y consultas sobre pagos realizados.
-
-La arquitectura del sistema se basa en ASP.NET Core MVC, lo que proporciona una separación clara entre las capas de presentación, negocio y acceso a datos. Además, se utiliza Entity Framework Core para la interacción con la base de datos.
-
-## 3. Creación de la Base de Datos
-
-El sistema se apoya en una base de datos relacional en SQL Server, que incluye las siguientes tablas:
-
+### Tablas del Sistema de Gestión Hospitalaria:
 - **Pacientes**: Información personal y médica de los pacientes.
 - **Médicos**: Datos de los médicos registrados en el hospital.
 - **Especialidades**: Listado de especialidades médicas disponibles.
 - **Citas**: Registro de las citas médicas programadas.
 - **Tratamientos**: Información sobre los tratamientos aplicados a los pacientes.
 - **Facturación**: Registro de los pagos y facturas generadas.
+
+### Tablas de Identidad para Autenticación y Gestión de Usuarios:
+- **AspNetUsers**: Almacena la información de los usuarios (incluye pacientes, médicos, administradores, etc.) como el nombre, email, contraseñas, etc.
+- **AspNetRoles**: Almacena los roles disponibles en el sistema (Admin, Doctor, Patient, Staff).
+- **AspNetUserRoles**: Relaciona a los usuarios con los roles asignados, determinando qué permisos tiene cada usuario.
+- **AspNetUserClaims**: Almacena las afirmaciones adicionales sobre los usuarios, como roles o derechos personalizados.
+- **AspNetUserLogins**: Almacena la información de los proveedores de autenticación externa si es necesario (ej. login con Google o Facebook).
+- **AspNetRoleClaims**: Almacena los permisos y derechos asociados a cada rol.
+- **AspNetSessions**: Almacena las sesiones activas de los usuarios para asegurar el inicio y cierre de sesión.
+
+### Creación Automática de Tablas de Identity
+Cuando se configura **ASP.NET Core Identity** en el proyecto, las tablas mencionadas (como `AspNetUsers`, `AspNetRoles`, etc.) se crean automáticamente en la base de datos durante la inicialización del sistema, sin necesidad de que el desarrollador cree manualmente estas tablas. Esto se realiza mediante la migración de la base de datos utilizando **Entity Framework Core**.
+
+**Entity Framework Core** facilita la gestión de la base de datos, permitiendo la creación, actualización y migración de las tablas a través de comandos en la línea de comandos, sin necesidad de intervención manual en los scripts SQL. Esto hace que el proceso de administración de la base de datos sea más eficiente y flexible.
+
+Estas tablas gestionan la autenticación y autorización de los usuarios, permitiendo la asignación de roles y permisos según el acceso permitido en el sistema.
+
+La base de datos también incluye relaciones entre las tablas de gestión hospitalaria y las tablas de identidad, lo que permite vincular la información de los pacientes, médicos y demás usuarios con sus roles y permisos dentro del sistema.
+
 
 
