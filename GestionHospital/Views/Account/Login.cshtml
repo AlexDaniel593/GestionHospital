@@ -3,18 +3,20 @@
     ViewData["Title"] = "Iniciar Sesion";
 }
 
-<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
-    <div class="card shadow-lg p-4" style="width: 400px; border-radius: 15px;">
+<link href="~/css/login.css" rel="stylesheet" />
+
+<div class="login-container">
+    <div class="login-card">
         <h2 class="text-center text-primary">Iniciar Sesión</h2>
         <form asp-action="Login" method="post">
             <!-- Campo de Email con ícono -->
             <div class="form-group mt-3">
                 <label asp-for="Email" class="fw-bold">Correo Electrónico</label>
                 <div class="input-group">
-                    <span class="input-group-text" style="border-radius: 10px 0 0 10px;">
+                    <span class="input-group-icon">
                         <i class="fas fa-envelope"></i>
                     </span>
-                    <input asp-for="Email" class="form-control" style="border-radius: 0 10px 10px 0;" />
+                    <input asp-for="Email" class="form-control" />
                 </div>
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
@@ -23,10 +25,10 @@
             <div class="form-group mt-3">
                 <label asp-for="Password" class="fw-bold">Contraseña</label>
                 <div class="input-group">
-                    <span class="input-group-text" style="border-radius: 10px 0 0 10px;">
+                    <span class="input-group-icon">
                         <i class="fas fa-lock"></i>
                     </span>
-                    <input asp-for="Password" class="form-control" type="password" style="border-radius: 0 10px 10px 0;" />
+                    <input asp-for="Password" class="form-control" type="password" />
                 </div>
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
@@ -38,7 +40,7 @@
             </div>
 
             <!-- Botón de Login -->
-            <button type="submit" class="btn btn-primary w-100 mt-4" style="border-radius: 10px;">
+            <button type="submit" class="btn btn-primary w-100 mt-4">
                 <i class="fas fa-sign-in-alt"></i> Iniciar Sesión
             </button>
 
