@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj",
+      "projectUniqueName": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj",
       "projectName": "CapaEntidad",
-      "projectPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj",
+      "projectPath": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaEntidad\\CapaEntidad.csproj",
       "packagesPath": "C:\\Users\\dalex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dalex\\source\\repos\\GestionHospital\\CapaEntidad\\obj\\",
+      "outputPath": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaEntidad\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,7 +51,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

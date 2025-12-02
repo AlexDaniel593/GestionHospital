@@ -61,6 +61,39 @@ async function fetchPost(url, tipoRespuesta, frm, callback) {
 
 let objConfiguracionGlobal;
 
+// Función para formatear fechas
+function formatearFecha(valor, propiedad) {
+    // Lista de propiedades que son fechas sin hora
+    const fechasSinHora = ['fechaNacimiento', 'fecha', 'fechaPago'];
+    // Lista de propiedades que son fechas con hora
+    const fechasConHora = ['fechaHora'];
+    
+    if (!valor) return valor;
+    
+    // Verificar si es una fecha
+    const fecha = new Date(valor);
+    if (isNaN(fecha.getTime())) return valor;
+    
+    // Formatear según el tipo de propiedad
+    if (fechasSinHora.includes(propiedad)) {
+        // Formato: dd/MM/yyyy
+        const dia = fecha.getDate().toString().padStart(2, '0');
+        const mes = (fecha.getMonth() + 1).toString().padStart(2, '0');
+        const anio = fecha.getFullYear();
+        return `${dia}/${mes}/${anio}`;
+    } else if (fechasConHora.includes(propiedad)) {
+        // Formato: dd/MM/yyyy HH:mm
+        const dia = fecha.getDate().toString().padStart(2, '0');
+        const mes = (fecha.getMonth() + 1).toString().padStart(2, '0');
+        const anio = fecha.getFullYear();
+        const horas = fecha.getHours().toString().padStart(2, '0');
+        const minutos = fecha.getMinutes().toString().padStart(2, '0');
+        return `${dia}/${mes}/${anio} ${horas}:${minutos}`;
+    }
+    
+    return valor;
+}
+
 //{url: "", cabeceras:[], propiedades:[]}
 function pintar(objConfiguracion) {
     objConfiguracionGlobal = objConfiguracion;
@@ -122,7 +155,8 @@ function generarTabla(res) {
         contenido += "<tr>";
         for (let j = 0; j < propiedades.length; j++) {
             propiedadActual = propiedades[j];
-            contenido += "<td>" + obj[propiedadActual] + "</td>";
+            let valorFormateado = formatearFecha(obj[propiedadActual], propiedadActual);
+            contenido += "<td>" + valorFormateado + "</td>";
         }
 
         if (objConfiguracionGlobal.editar === true || objConfiguracionGlobal.eliminar === true) {

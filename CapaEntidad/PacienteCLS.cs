@@ -11,7 +11,11 @@ namespace CapaEntidad
         public int idPaciente { get; set; }
         public string nombre { get; set; }
         public string apellido { get; set; }
+        
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime fechaNacimiento { get; set; }
+        
         public string telefono { get; set; }
         public string email { get; set; }
         public string direccion { get; set; }

@@ -1,0 +1,13 @@
+{
+pC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfo.csutf-8è
+ÉC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.csutf-8}
+rC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\obj\Debug\net9.0\CapaEntidad.GlobalUsings.g.csutf-8_
+VC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\TratamientoView.csutf-8e
+\C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\TratamientoMedicoView.csutf-8^
+UC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\TratamientoCLS.csutf-8[
+RC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\PacienteCLS.csutf-8Y
+PC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\MedicoCLS.csutf-8^
+UC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\FacturacionCLS.csutf-8[
+RC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\CitaViewCLS.csutf-8W
+NC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\CitaCLS.csutf-8b
+YC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\FacturacionViewCLS.csutf-8

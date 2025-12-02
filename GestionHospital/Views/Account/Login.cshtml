@@ -8,6 +8,21 @@
 <div class="login-container">
     <div class="login-card">
         <h2 class="text-center text-primary">Iniciar Sesión</h2>
+        
+        <!-- Mostrar errores de validación general -->
+        @if (!ViewData.ModelState.IsValid && ViewData.ModelState[""].Errors.Count > 0)
+        {
+            <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
+                <i class="fas fa-exclamation-triangle"></i>
+                <strong>Error:</strong>
+                @foreach (var error in ViewData.ModelState[""].Errors)
+                {
+                    <div>@error.ErrorMessage</div>
+                }
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+        
         <form asp-action="Login" method="post">
             <!-- Campo de Email con ícono -->
             <div class="form-group mt-3">

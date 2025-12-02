@@ -2,9 +2,20 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using CapaDatos;
 using CapaNegocio;
+using DotNetEnv;
+
+// Load environment variables from .env file
+Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("cn");
+
+// Build connection string from environment variables
+var dbServer = Environment.GetEnvironmentVariable("DB_SERVER") ?? "localhost";
+var dbName = Environment.GetEnvironmentVariable("DB_NAME") ?? "HospitalDB";
+var dbUser = Environment.GetEnvironmentVariable("DB_USER") ?? "sa";
+var dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD") ?? "";
+
+var connectionString = $"Server={dbServer};Database={dbName};User ID={dbUser};Password={dbPassword};TrustServerCertificate=True;MultipleActiveResultSets=True;";
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
@@ -19,7 +30,11 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     options.SignIn.RequireConfirmedAccount = false;
 })
 .AddEntityFrameworkStores<ApplicationDbContext>()
-.AddDefaultTokenProviders();
+.AddDefaultTokenProviders()
+.AddPasswordValidator<PasswordValidator<IdentityUser>>();
+
+// Configure Argon2id password hasher
+builder.Services.AddScoped<IPasswordHasher<IdentityUser>, Argon2PasswordHasher<IdentityUser>>();
 
 
 builder.Services.ConfigureApplicationCookie(options =>
@@ -33,6 +48,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
 // Register DAL and BL classes
+builder.Services.AddScoped<SecurityDAL>();
 builder.Services.AddScoped<PacienteDAL>();
 builder.Services.AddScoped<PacienteBL>();
 builder.Services.AddScoped<AccountBL>();
@@ -80,17 +96,4 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-using (var scope = app.Services.CreateScope())
-{
-    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
-    string email = "admin@admin.com";
-    string password = "Admin1234,";
-    if (await userManager.FindByEmailAsync(email) == null)
-    {
-        var user = new IdentityUser { UserName = email, Email = email };
-        await userManager.CreateAsync(user, password);
-        await userManager.AddToRoleAsync(user, "Admin");
-
-    }
-}
 app.Run();

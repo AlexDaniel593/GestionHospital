@@ -11,7 +11,11 @@ namespace CapaEntidad
         public int idCita { get; set; }
         public int idPaciente { get; set; }
         public int idMedico { get; set; }
+        
+        [DataType(DataType.DateTime)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy HH:mm}", ApplyFormatInEditMode = true)]
         public DateTime fechaHora { get; set; }
+        
         public string estado { get; set; }
         public int BHABILITADO { get; set; }
     }

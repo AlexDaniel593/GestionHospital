@@ -22,6 +22,9 @@ namespace CapaDatos
         public DbSet<FacturacionCLS> FACTURACION { get; set; }
         public DbSet<FacturacionViewCLS> FacturacionResultados { get; set; }
 
+        // Security tables
+        public DbSet<LoginAttemptCLS> LOGIN_ATTEMPTS { get; set; }
+        public DbSet<AccountLockoutCLS> ACCOUNT_LOCKOUTS { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

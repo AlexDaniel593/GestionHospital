@@ -1,0 +1,6 @@
+projectKey=Gestion-Hospital-ASP.NET
+serverUrl=http://localhost:9000
+serverVersion=25.10.0.114319
+dashboardUrl=http://localhost:9000/dashboard?id=Gestion-Hospital-ASP.NET
+ceTaskId=d93a404a-0639-4de7-b409-95f20fdfd2ee
+ceTaskUrl=http://localhost:9000/api/ce/task?id=d93a404a-0639-4de7-b409-95f20fdfd2ee

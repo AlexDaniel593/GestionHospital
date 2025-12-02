@@ -16,7 +16,11 @@ namespace CapaEntidad
         [Column("PACIENTEID")] // Mapea idPaciente a la columna PACIENTEID
         public int idPaciente { get; set; }
         public string descripcion { get; set; }
+        
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime fecha { get; set; }
+        
         public decimal costo { get; set; }
         public int BHABILITADO { get; set; }
     }

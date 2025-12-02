@@ -14,7 +14,11 @@ namespace CapaEntidad
         public string nombreCompletoPaciente { get; set; }
         public decimal monto { get; set; }
         public string metodoPago { get; set; }
+        
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime fechaPago { get; set; }
+        
         public int BHABILITADO { get; set; }
     }
 }

@@ -1,0 +1,6 @@
+﻿C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaNegocio\AccountBL.cs
+C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaNegocio\CitaBL.cs
+C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaNegocio\FacturacionBL.cs
+C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaNegocio\MedicoBL.cs
+C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaNegocio\PacienteBL.cs
+C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaNegocio\TratamientoBL.cs
