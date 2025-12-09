@@ -978,3 +978,6 @@ C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\GestionHospital\bin\Debu
 C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\GestionHospital\bin\Debug\net9.0\Sprache.dll
 C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\GestionHospital\obj\Debug\net9.0\compressed\92728zs8kr-1b89k7b8mw.gz
 C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\GestionHospital\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\GestionHospital\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\GestionHospital\bin\Debug\net9.0\SendGrid.dll
+C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\GestionHospital\bin\Debug\net9.0\StarkbankEcdsa.dll

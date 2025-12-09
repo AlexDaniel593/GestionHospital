@@ -84,6 +84,10 @@
               "target": "Package",
               "version": "[9.0.10, )"
             },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"
@@ -327,6 +331,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.10, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
             }
           },
           "imports": [
