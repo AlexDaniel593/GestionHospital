@@ -57,32 +57,6 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CapaDatos",
-              "DocumentMoniker": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaDatos\\CapaDatos.csproj",
-              "RelativeDocumentMoniker": "CapaDatos\\CapaDatos.csproj",
-              "ToolTip": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaDatos\\CapaDatos.csproj",
-              "RelativeToolTip": "CapaDatos\\CapaDatos.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-09T02:17:32.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SecurityDAL.cs",
-              "DocumentMoniker": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaDatos\\SecurityDAL.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\SecurityDAL.cs",
-              "ToolTip": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaDatos\\SecurityDAL.cs",
-              "RelativeToolTip": "CapaDatos\\SecurityDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T02:17:24.892Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -96,6 +70,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CapaDatos.csproj",
+              "DocumentMoniker": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaDatos\\CapaDatos.csproj",
+              "RelativeDocumentMoniker": "CapaDatos\\CapaDatos.csproj",
+              "ToolTip": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaDatos\\CapaDatos.csproj",
+              "RelativeToolTip": "CapaDatos\\CapaDatos.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-09T02:17:32.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecurityDAL.cs",
+              "DocumentMoniker": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaDatos\\SecurityDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\SecurityDAL.cs",
+              "ToolTip": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\CapaDatos\\SecurityDAL.cs",
+              "RelativeToolTip": "CapaDatos\\SecurityDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T02:17:24.892Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\GestionHospital\\.env",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "GestionHospital\\.env",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-02T04:18:46.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T04:18:46.538Z"
             },
             {
               "$type": "Document",
@@ -115,7 +112,7 @@
               "RelativeDocumentMoniker": "GestionHospital\\Program.cs",
               "ToolTip": "C:\\Users\\dalex\\OneDrive\\Documentos\\Code\\GestionHospital\\GestionHospital\\Program.cs",
               "RelativeToolTip": "GestionHospital\\Program.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAGQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T12:37:04.828Z",
               "EditorCaption": ""
@@ -130,8 +127,7 @@
               "RelativeToolTip": "GestionHospital\\wwwroot\\js\\generic.js",
               "ViewState": "AgIAALYAAAAAAAAAAAAgwMkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-05T06:43:14.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T06:43:14.466Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "GestionHospital\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAwHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T06:43:49.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T06:43:49.112Z"
             },
             {
               "$type": "Document",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "GestionHospital\\wwwroot\\js\\register.js",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-05T06:43:28.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T06:43:28.51Z"
             },
             {
               "$type": "Document",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "GestionHospital\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-05T06:33:03.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T06:33:03.011Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "GestionHospital\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T04:05:06.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T04:05:06.131Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "GestionHospital\\Views\\Paciente\\Index.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAkwFAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T04:12:20.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T04:12:20.798Z"
             },
             {
               "$type": "Document",
@@ -208,8 +199,7 @@
               "RelativeToolTip": "GestionHospital\\wwwroot\\css\\shared.css",
               "ViewState": "AgIAAN8AAAAAAAAAAADwvzQBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-05T04:08:54.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T04:08:54.974Z"
             }
           ]
         },
