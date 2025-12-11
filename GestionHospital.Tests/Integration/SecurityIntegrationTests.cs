@@ -14,34 +14,14 @@ namespace GestionHospital.Tests.Integration
     /// <summary>
     /// Pruebas de integración que validan el flujo completo desde API hasta base de datos
     /// </summary>
-    public class SecurityIntegrationTests : IClassFixture<WebApplicationFactory<Program>>
+    public class SecurityIntegrationTests : IClassFixture<CustomWebApplicationFactory>
     {
-        private readonly WebApplicationFactory<Program> _factory;
+        private readonly CustomWebApplicationFactory _factory;
         private readonly HttpClient _client;
 
-        public SecurityIntegrationTests(WebApplicationFactory<Program> factory)
+        public SecurityIntegrationTests(CustomWebApplicationFactory factory)
         {
-            _factory = factory.WithWebHostBuilder(builder =>
-            {
-                builder.ConfigureServices(services =>
-                {
-                    // Remover el DbContext real
-                    var descriptor = services.SingleOrDefault(
-                        d => d.ServiceType == typeof(DbContextOptions<ApplicationDbContext>));
-
-                    if (descriptor != null)
-                    {
-                        services.Remove(descriptor);
-                    }
-
-                    // Agregar DbContext con base de datos en memoria para pruebas
-                    services.AddDbContext<ApplicationDbContext>(options =>
-                    {
-                        options.UseInMemoryDatabase("TestDatabase");
-                    });
-                });
-            });
-
+            _factory = factory;
             _client = _factory.CreateClient();
         }
 

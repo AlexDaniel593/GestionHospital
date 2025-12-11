@@ -9,16 +9,21 @@ Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Build connection string from environment variables
-var dbServer = Environment.GetEnvironmentVariable("DB_SERVER") ?? "localhost";
-var dbName = Environment.GetEnvironmentVariable("DB_NAME") ?? "HospitalDB";
-var dbUser = Environment.GetEnvironmentVariable("DB_USER") ?? "sa";
-var dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD") ?? "";
+// Solo registrar SqlServer si NO estamos en modo Testing
+// En modo Testing, el DbContext se registra en CustomWebApplicationFactory
+if (builder.Environment.EnvironmentName != "Testing")
+{
+    // Build connection string from environment variables
+    var dbServer = Environment.GetEnvironmentVariable("DB_SERVER") ?? "localhost";
+    var dbName = Environment.GetEnvironmentVariable("DB_NAME") ?? "HospitalDB";
+    var dbUser = Environment.GetEnvironmentVariable("DB_USER") ?? "sa";
+    var dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD") ?? "";
 
-var connectionString = $"Server={dbServer};Database={dbName};User ID={dbUser};Password={dbPassword};TrustServerCertificate=True;MultipleActiveResultSets=True;";
+    var connectionString = $"Server={dbServer};Database={dbName};User ID={dbUser};Password={dbPassword};TrustServerCertificate=True;MultipleActiveResultSets=True;";
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+    builder.Services.AddDbContext<ApplicationDbContext>(options =>
+        options.UseSqlServer(connectionString));
+}
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
@@ -91,7 +96,9 @@ app.MapControllerRoute(
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
 
+    // Crear roles
     var roles = new[] { "Admin", "Doctor", "Patient", "Staff"};
     foreach (var role in roles)
     {

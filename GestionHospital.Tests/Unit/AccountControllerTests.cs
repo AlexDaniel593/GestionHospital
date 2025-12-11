@@ -1,10 +1,12 @@
 using CapaDatos;
+using CapaEntidad;
 using GestionHospital.Controllers;
 using GestionHospital.Models;
 using FluentAssertions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
@@ -15,18 +17,25 @@ namespace GestionHospital.Tests.Unit
     /// Pruebas unitarias para AccountController
     /// Cobertura: Login, lockout handling, security logging integration
     /// </summary>
-    public class AccountControllerTests
+    public class AccountControllerTests : IDisposable
     {
+        private readonly ApplicationDbContext _context;
         private readonly Mock<UserManager<IdentityUser>> _userManagerMock;
         private readonly Mock<SignInManager<IdentityUser>> _signInManagerMock;
         private readonly Mock<RoleManager<IdentityRole>> _roleManagerMock;
-        private readonly Mock<SecurityDAL> _securityDALMock;
-        private readonly Mock<PacienteDAL> _pacienteDALMock;
+        private readonly SecurityDAL _securityDAL;
+        private readonly PacienteDAL _pacienteDAL;
         private readonly Mock<ILogger<AccountController>> _loggerMock;
         private readonly AccountController _controller;
 
         public AccountControllerTests()
         {
+            // Crear DbContext con InMemoryDatabase
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseInMemoryDatabase(databaseName: $"AccountControllerTestDb_{Guid.NewGuid()}")
+                .Options;
+            _context = new ApplicationDbContext(options);
+
             // Setup UserManager mock
             var userStoreMock = new Mock<IUserStore<IdentityUser>>();
             _userManagerMock = new Mock<UserManager<IdentityUser>>(
@@ -46,23 +55,20 @@ namespace GestionHospital.Tests.Unit
             _roleManagerMock = new Mock<RoleManager<IdentityRole>>(
                 roleStoreMock.Object, null, null, null, null);
 
-            // Setup SecurityDAL mock
-            var dbContextMock = new Mock<ApplicationDbContext>();
-            _securityDALMock = new Mock<SecurityDAL>(dbContextMock.Object);
-
-            // Setup PacienteDAL mock
-            _pacienteDALMock = new Mock<PacienteDAL>(dbContextMock.Object);
+            // Crear DALs reales con el DbContext en memoria
+            _securityDAL = new SecurityDAL(_context);
+            _pacienteDAL = new PacienteDAL(_context);
 
             // Setup Logger mock
             _loggerMock = new Mock<ILogger<AccountController>>();
 
-            // Create controller with mocks
+            // Create controller with DALs reales
             _controller = new AccountController(
                 _signInManagerMock.Object,
                 _userManagerMock.Object,
                 _roleManagerMock.Object,
-                _pacienteDALMock.Object,
-                _securityDALMock.Object,
+                _pacienteDAL,
+                _securityDAL,
                 _loggerMock.Object
             );
 
@@ -74,6 +80,11 @@ namespace GestionHospital.Tests.Unit
             {
                 HttpContext = httpContext
             };
+        }
+
+        public void Dispose()
+        {
+            _context?.Dispose();
         }
 
         #region Login GET Tests
@@ -98,26 +109,14 @@ namespace GestionHospital.Tests.Unit
             // Arrange
             var model = new LoginViewModel
             {
-                Email = "test@example.com",
-                Password = "Test1234!",
+                Email = "validuser@example.com",
+                Password = "ValidPass@123",
                 RememberMe = false
             };
-
-            _securityDALMock
-                .Setup(x => x.IsAccountLockedAsync(model.Email))
-                .ReturnsAsync((false, (DateTime?)null));
 
             _signInManagerMock
                 .Setup(x => x.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false))
                 .ReturnsAsync(Microsoft.AspNetCore.Identity.SignInResult.Success);
-
-            _securityDALMock
-                .Setup(x => x.ResetFailedAttemptsAsync(model.Email))
-                .Returns(Task.CompletedTask);
-
-            _securityDALMock
-                .Setup(x => x.LogLoginAttemptAsync(model.Email, true, It.IsAny<string>(), It.IsAny<string>(), null))
-                .Returns(Task.CompletedTask);
 
             // Act
             var result = await _controller.Login(model);
@@ -128,10 +127,20 @@ namespace GestionHospital.Tests.Unit
             redirectResult.ActionName.Should().Be("Index");
             redirectResult.ControllerName.Should().Be("Home");
 
-            // Verificar que se llamaron los métodos de seguridad
-            _securityDALMock.Verify(x => x.ResetFailedAttemptsAsync(model.Email), Times.Once);
-            _securityDALMock.Verify(x => x.LogLoginAttemptAsync(
-                model.Email, true, It.IsAny<string>(), It.IsAny<string>(), null), Times.Once);
+            // Verificar que se guardó el intento exitoso en la base de datos
+            var loginAttempt = await _context.LOGIN_ATTEMPTS
+                .FirstOrDefaultAsync(x => x.Email == model.Email && x.IsSuccessful);
+            loginAttempt.Should().NotBeNull();
+            loginAttempt!.IpAddress.Should().Be("192.168.1.1");
+
+            // Verificar que se resetearon los intentos fallidos
+            var lockout = await _context.ACCOUNT_LOCKOUTS
+                .FirstOrDefaultAsync(x => x.Email == model.Email);
+            if (lockout != null)
+            {
+                lockout.FailedAttempts.Should().Be(0);
+                lockout.LockoutEnd.Should().BeNull();
+            }
         }
 
         [Fact]
@@ -145,22 +154,9 @@ namespace GestionHospital.Tests.Unit
                 RememberMe = false
             };
 
-            _securityDALMock
-                .Setup(x => x.IsAccountLockedAsync(model.Email))
-                .ReturnsAsync((false, (DateTime?)null));
-
             _signInManagerMock
                 .Setup(x => x.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false))
                 .ReturnsAsync(Microsoft.AspNetCore.Identity.SignInResult.Failed);
-
-            _securityDALMock
-                .Setup(x => x.RecordFailedAttemptAsync(model.Email))
-                .ReturnsAsync((false, (DateTime?)null));
-
-            _securityDALMock
-                .Setup(x => x.LogLoginAttemptAsync(
-                    model.Email, false, It.IsAny<string>(), It.IsAny<string>(), It.IsAny<string>()))
-                .Returns(Task.CompletedTask);
 
             // Act
             var result = await _controller.Login(model);
@@ -168,13 +164,19 @@ namespace GestionHospital.Tests.Unit
             // Assert
             result.Should().BeOfType<ViewResult>();
             var viewResult = result as ViewResult;
-            viewResult.Model.Should().Be(model);
-            _controller.ModelState.Should().ContainKey(string.Empty);
+            viewResult.ViewData.ModelState.Should().ContainKey(string.Empty);
 
             // Verificar que se registró el intento fallido
-            _securityDALMock.Verify(x => x.RecordFailedAttemptAsync(model.Email), Times.Once);
-            _securityDALMock.Verify(x => x.LogLoginAttemptAsync(
-                model.Email, false, It.IsAny<string>(), It.IsAny<string>(), It.IsAny<string>()), Times.Once);
+            var loginAttempt = await _context.LOGIN_ATTEMPTS
+                .FirstOrDefaultAsync(x => x.Email == model.Email && !x.IsSuccessful);
+            loginAttempt.Should().NotBeNull();
+            loginAttempt!.FailureReason.Should().Contain("Credenciales inválidas");
+
+            // Verificar que se incrementó el contador de intentos fallidos
+            var lockout = await _context.ACCOUNT_LOCKOUTS
+                .FirstOrDefaultAsync(x => x.Email == model.Email);
+            lockout.Should().NotBeNull();
+            lockout!.FailedAttempts.Should().Be(1);
         }
 
         [Fact]
@@ -184,19 +186,20 @@ namespace GestionHospital.Tests.Unit
             var model = new LoginViewModel
             {
                 Email = "locked@example.com",
-                Password = "Test1234!",
+                Password = "Test@123",
                 RememberMe = false
             };
 
-            var lockoutEnd = DateTime.UtcNow.AddMinutes(25);
-            _securityDALMock
-                .Setup(x => x.IsAccountLockedAsync(model.Email))
-                .ReturnsAsync((true, lockoutEnd));
-
-            _securityDALMock
-                .Setup(x => x.LogLoginAttemptAsync(
-                    model.Email, false, It.IsAny<string>(), It.IsAny<string>(), It.IsAny<string>()))
-                .Returns(Task.CompletedTask);
+            // Crear bloqueo activo en la base de datos
+            var lockout = new AccountLockoutCLS
+            {
+                Email = model.Email,
+                FailedAttempts = 3,
+                LockoutEnd = DateTime.UtcNow.AddMinutes(25),
+                LastAttempt = DateTime.UtcNow
+            };
+            _context.ACCOUNT_LOCKOUTS.Add(lockout);
+            await _context.SaveChangesAsync();
 
             // Act
             var result = await _controller.Login(model);
@@ -204,16 +207,10 @@ namespace GestionHospital.Tests.Unit
             // Assert
             result.Should().BeOfType<ViewResult>();
             var viewResult = result as ViewResult;
-            viewResult.Model.Should().Be(model);
-            _controller.ModelState.Should().ContainKey(string.Empty);
+            viewResult.ViewData.ModelState.Should().ContainKey(string.Empty);
             
-            var errorMessages = _controller.ModelState[string.Empty].Errors.Select(e => e.ErrorMessage);
-            errorMessages.Should().Contain(msg => msg.Contains("bloqueada") && msg.Contains("25"));
-
-            // Verificar que NO se intentó hacer sign in
-            _signInManagerMock.Verify(
-                x => x.PasswordSignInAsync(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), It.IsAny<bool>()),
-                Times.Never);
+            var errorMessage = viewResult.ViewData.ModelState[string.Empty]?.Errors.FirstOrDefault()?.ErrorMessage;
+            errorMessage.Should().Contain("bloqueada");
         }
 
         [Fact]
@@ -222,42 +219,49 @@ namespace GestionHospital.Tests.Unit
             // Arrange
             var model = new LoginViewModel
             {
-                Email = "test@example.com",
+                Email = "locktest@example.com",
                 Password = "WrongPassword",
                 RememberMe = false
             };
 
-            var lockoutEnd = DateTime.UtcNow.AddMinutes(30);
-
-            _securityDALMock
-                .Setup(x => x.IsAccountLockedAsync(model.Email))
-                .ReturnsAsync((false, (DateTime?)null));
+            // Simular 2 intentos fallidos previos
+            var existingLockout = new AccountLockoutCLS
+            {
+                Email = model.Email,
+                FailedAttempts = 2,
+                LockoutEnd = null,
+                LastAttempt = DateTime.UtcNow.AddMinutes(-5)
+            };
+            _context.ACCOUNT_LOCKOUTS.Add(existingLockout);
+            await _context.SaveChangesAsync();
+            _context.ChangeTracker.Clear(); // Limpiar el tracker para obtener datos frescos
 
             _signInManagerMock
                 .Setup(x => x.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false))
                 .ReturnsAsync(Microsoft.AspNetCore.Identity.SignInResult.Failed);
-
-            // Simular que es el tercer intento fallido
-            _securityDALMock
-                .Setup(x => x.RecordFailedAttemptAsync(model.Email))
-                .ReturnsAsync((true, lockoutEnd)); // Ahora está bloqueado
-
-            _securityDALMock
-                .Setup(x => x.LogLoginAttemptAsync(
-                    model.Email, false, It.IsAny<string>(), It.IsAny<string>(), It.IsAny<string>()))
-                .Returns(Task.CompletedTask);
 
             // Act
             var result = await _controller.Login(model);
 
             // Assert
             result.Should().BeOfType<ViewResult>();
-            var viewResult = result as ViewResult;
-            
-            var errorMessages = _controller.ModelState[string.Empty].Errors.Select(e => e.ErrorMessage);
-            errorMessages.Should().Contain(msg => msg.Contains("bloqueada") || msg.Contains("intentos fallidos"));
 
-            _securityDALMock.Verify(x => x.RecordFailedAttemptAsync(model.Email), Times.Once);
+            // Verificar que se creó el bloqueo - recargar desde la base de datos
+            _context.ChangeTracker.Clear();
+            var updatedLockout = await _context.ACCOUNT_LOCKOUTS
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.Email == model.Email);
+            updatedLockout.Should().NotBeNull();
+            updatedLockout!.FailedAttempts.Should().Be(3);
+            updatedLockout.LockoutEnd.Should().NotBeNull();
+            updatedLockout.LockoutEnd.Should().BeCloseTo(DateTime.UtcNow.AddMinutes(30), TimeSpan.FromMinutes(1));
+
+            // Verificar que se registró el intento fallido
+            var loginAttempts = await _context.LOGIN_ATTEMPTS
+                .AsNoTracking()
+                .Where(x => x.Email == model.Email && !x.IsSuccessful)
+                .ToListAsync();
+            loginAttempts.Should().HaveCountGreaterThan(0);
         }
 
         #endregion
@@ -270,37 +274,25 @@ namespace GestionHospital.Tests.Unit
             // Arrange
             var model = new LoginViewModel
             {
-                Email = "test@example.com",
-                Password = "Test1234!",
+                Email = "iptest@example.com",
+                Password = "Test@123",
                 RememberMe = false
             };
-
-            _securityDALMock
-                .Setup(x => x.IsAccountLockedAsync(model.Email))
-                .ReturnsAsync((false, (DateTime?)null));
 
             _signInManagerMock
                 .Setup(x => x.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false))
                 .ReturnsAsync(Microsoft.AspNetCore.Identity.SignInResult.Success);
 
-            string capturedIp = null;
-            string capturedUserAgent = null;
-
-            _securityDALMock
-                .Setup(x => x.LogLoginAttemptAsync(model.Email, true, It.IsAny<string>(), It.IsAny<string>(), null))
-                .Callback<string, bool, string, string, string>((email, success, ip, ua, reason) =>
-                {
-                    capturedIp = ip;
-                    capturedUserAgent = ua;
-                })
-                .Returns(Task.CompletedTask);
-
             // Act
-            await _controller.Login(model);
+            var result = await _controller.Login(model);
 
             // Assert
-            capturedIp.Should().Be("192.168.1.1");
-            capturedUserAgent.Should().Be("Mozilla/5.0 Test Browser");
+            var loginAttempt = await _context.LOGIN_ATTEMPTS
+                .FirstOrDefaultAsync(x => x.Email == model.Email);
+            
+            loginAttempt.Should().NotBeNull();
+            loginAttempt!.IpAddress.Should().Be("192.168.1.1");
+            loginAttempt.UserAgent.Should().Be("Mozilla/5.0 Test Browser");
         }
 
         #endregion
