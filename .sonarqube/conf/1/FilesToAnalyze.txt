@@ -1,9 +1,0 @@
-﻿C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaDatos\ApplicationDbContext.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaDatos\CitaDAL.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaDatos\FacturacionDAL.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaDatos\MedicoDAL.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaDatos\Migrations\20250302050504_InitialCreate.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaDatos\Migrations\20250302050504_InitialCreate.Designer.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaDatos\Migrations\ApplicationDbContextModelSnapshot.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaDatos\PacienteDAL.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaDatos\TratamientoDAL.cs

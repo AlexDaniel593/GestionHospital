@@ -1,1 +1,0 @@
-lRVC:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\CapaEntidad.csproj¢net9.0òCSharp13
