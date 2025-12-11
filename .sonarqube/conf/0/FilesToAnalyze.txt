@@ -1,9 +1,0 @@
-﻿C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\CitaCLS.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\CitaViewCLS.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\FacturacionCLS.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\FacturacionViewCLS.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\MedicoCLS.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\PacienteCLS.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\TratamientoCLS.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\TratamientoMedicoView.cs
-C:\Users\dalex\OneDrive\Documentos\Code\GestionHospital\CapaEntidad\TratamientoView.cs
